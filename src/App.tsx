@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Psiqu&co
+          Psiqu&co 
         </a>
       </header>
     </div>
