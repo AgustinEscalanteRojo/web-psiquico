@@ -13,7 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Servicios', 'La Consulta', 'Ubicación'];
+const pages = ['¿Quienes sómos?', 'La Consulta', 'Ubicación', 'Contacto'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Header () {
