@@ -55,7 +55,7 @@ function Header () {
               textDecoration: 'none',
             }}
           >
-            PSIQU&CO
+            PSIQUI&CO
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>

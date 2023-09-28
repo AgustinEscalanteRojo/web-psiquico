@@ -4,7 +4,7 @@ import { Container, Text } from './styles';
 const Footer: FC = () => {
   return (
     <Container>
-      <Text>© Psiqu&co</Text>
+      <Text>© Psiqui&co</Text>
     </Container>
   );
 };

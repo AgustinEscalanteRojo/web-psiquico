@@ -11,7 +11,7 @@ export const Container = styled.footer`
 `;
 
 export const Text = styled.p`
-  font-family: Oswald;
+  font-family: "Open Sans Condensed";
   font-weight: bold;
   font-size: 16px; 
   color: #890679; 

@@ -2,13 +2,19 @@ import { FC, memo } from 'react';
 import Header from '../../components/Header';
 import Background from '../../components/Background';
 import Footer from '../../components/Footer';
-import { Container } from './styles';
+import Maps from '../../components/Maps';
+import { Container, MapsContainer } from './styles';
 
 const Location: FC = () => {
   return (
     <>
       <Header />
-      <Container></Container>
+      <Container>
+      <MapsContainer>
+          <Maps />
+        </MapsContainer>
+
+      </Container>
       <Background />
       <Footer />
     </>
