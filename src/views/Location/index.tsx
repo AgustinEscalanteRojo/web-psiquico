@@ -8,6 +8,7 @@ import { Container, MapsContainer } from './styles';
 const Location: FC = () => {
   return (
     <>
+          <Background />
       <Header />
       <Container>
       <MapsContainer>
@@ -15,7 +16,7 @@ const Location: FC = () => {
         </MapsContainer>
 
       </Container>
-      <Background />
+
       <Footer />
     </>
   );
