@@ -8,13 +8,12 @@ import { Container, MapsContainer } from './styles';
 const Location: FC = () => {
   return (
     <>
-          <Background />
+      <Background />
       <Header />
       <Container>
-      <MapsContainer>
+        <MapsContainer>
           <Maps />
         </MapsContainer>
-
       </Container>
 
       <Footer />

@@ -2,11 +2,14 @@ import styled from 'styled-components';
 
 export const BackgroundContainer = styled.div`
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
-  object-fit: none;
-  object-position: bottom;
-  background: linear-gradient(to right, #E5EAEB, transparent);
+  background: linear-gradient(to right, #A9E3ED, transparent);
   z-index: -3;
 `;
+
+
+// #E5EAEB
 
