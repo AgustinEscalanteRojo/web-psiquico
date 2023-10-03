@@ -14,6 +14,11 @@ export const BioContainer = styled.div`
   padding: 16px;
   margin-bottom: 16px;
   /* Agrega cualquier estilo adicional que desees para las biografías */
+
+  img {
+    margin-left: 15px; /* Agrega un margen izquierdo para separar la imagen del título */
+    max-width: 230px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+  }
 `;
 
 export const Title = styled.p`

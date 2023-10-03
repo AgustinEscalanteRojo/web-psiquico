@@ -17,10 +17,10 @@ const Who: FC = () => {
       <Header />
       <StyledContainer>
         <Grid container spacing={3}>
-          {/* Primer psicólogo */}
           <Grid item xs={12} md={6}>
             <BioContainer>
               <Title>María Marín Domínguez</Title>
+              <img src="/Mariapsiquico.jpg" alt="María" />
 
               <div>
                 <Typography variant="subtitle1">
@@ -29,7 +29,6 @@ const Who: FC = () => {
                 <Typography variant="subtitle1">
                   - Máster en Terapia Cognitivo Conductual
                 </Typography>
-                {/* Añade las demás titulaciones */}
               </div>
 
               <div>
@@ -104,10 +103,10 @@ const Who: FC = () => {
             </BioContainer>
           </Grid>
 
-          {/* Segundo psicólogo */}
           <Grid item xs={12} md={6}>
             <BioContainer>
               <Title>Felix Valderrama </Title>
+              <img src="/" alt="Felix" />
 
               <div>
                 <Typography variant="subtitle1">
