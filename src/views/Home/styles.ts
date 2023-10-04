@@ -7,25 +7,26 @@ export const StyledContainer = styled(MUIContainer)`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    background-color: #fff;
+    min-height: 50vh;
+    background: linear-gradient(to right, #D2F4F9, transparent);
     padding: 30px;
     color: #333;
     border: 1px solid #ccc;
     border-radius: 8px;
     max-width: 600px; /* Ajusta el valor según tus necesidades */
     margin: 0 auto; /* Centra el contenedor en la página */
+    margin-top: 10px; 
   }
 `;
 
 export const Text = styled.p`
   text-align: center;
-  margin-top: 0px;
+  margin-top: 3px;
 `;
 
 export const SubText = styled.p`
   text-align: center;
-  margin-top: 8px;
+  margin-top: 5px;
   font-size: 1em;
 `;
 
