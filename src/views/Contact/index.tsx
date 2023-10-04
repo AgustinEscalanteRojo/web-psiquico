@@ -5,15 +5,22 @@ import Footer from '../../components/Footer';
 import { RiTwitterXFill } from 'react-icons/ri';
 import { BsFillTelephoneForwardFill, BsLinkedin } from 'react-icons/bs';
 import { MdAttachEmail } from 'react-icons/md';
-import { Container, ContactInfo, Icon } from './styles';
+import { Container, ContactInfo, Title, Name, Info, StyledContainer } from './styles';
 
 const Contact: FC = () => {
   return (
     <>
       <Header />
       <Container>
-        <h1>Contacto</h1>
-        <h3>María Marín Domínguez</h3>
+        <Title>Contacto</Title>
+        <Info>
+          Si quieres pedir una cita o deseas más información, puedes ponerte en
+          contacto con nosotros en los datos que se indican a continuación
+        </Info>
+
+        <StyledContainer>
+        <Name>María Marín Domínguez</Name>
+        
         <ContactInfo>
           <MdAttachEmail />
           Email: maria@psiquico.com
@@ -28,14 +35,19 @@ const Contact: FC = () => {
         <ContactInfo>
           <RiTwitterXFill /> Twitter: @marinpsicologa
         </ContactInfo>
+        </StyledContainer>
 
-        <h3>Felix Valderrama Díaz</h3>
+
+        <StyledContainer>
+        <Name>Felix Valderrama Díaz</Name>
         <ContactInfo>
-        <MdAttachEmail />
-          Email: felix@psiquico.com</ContactInfo>
+          <MdAttachEmail />
+          Email: felix@psiquico.com
+        </ContactInfo>
         <ContactInfo>
-        <BsFillTelephoneForwardFill />
-          Teléfono: 777 777 777</ContactInfo>
+          <BsFillTelephoneForwardFill />
+          Teléfono: 777 777 777
+        </ContactInfo>
         <ContactInfo>
           <BsLinkedin />
           Linkedin: enlace linkedin
@@ -44,6 +56,8 @@ const Contact: FC = () => {
           <RiTwitterXFill />
           Twitter: @felixvalderrama
         </ContactInfo>
+        </StyledContainer>
+
       </Container>
       <Background />
       <Footer />
