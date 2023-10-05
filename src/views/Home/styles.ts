@@ -8,14 +8,20 @@ export const StyledContainer = styled(MUIContainer)`
     align-items: center;
     justify-content: center;
     min-height: 50vh;
-    background: linear-gradient(to right, #D2F4F9, transparent);
+    background: linear-gradient(to right, #d2f4f9, transparent);
     padding: 30px;
     color: #333;
     border: 1px solid #ccc;
     border-radius: 8px;
-    max-width: 600px; /* Ajusta el valor según tus necesidades */
-    margin: 0 auto; /* Centra el contenedor en la página */
-    margin-top: 10px; 
+    max-width: 100%; /* Ajusta el valor según tus necesidades */
+    margin: 0; /*Centra el contenedor en la página */
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    @media (min-width: 600px) {
+      max-width: 600px; /* Restaura el ancho máximo en dispositivos más grandes si es necesario */
+      margin: 0 auto;
+    }
   }
 `;
 
@@ -35,9 +41,20 @@ export const MapsContainer = styled.div`
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  width: 80%; /* Asegura que el contenedor Maps ocupe todo el ancho disponible */
+  width: 100%; /* Asegura que el contenedor Maps ocupe todo el ancho disponible */
   max-width: 1200px; /* Establece un ancho máximo para el contenedor si es necesario */
   padding: 0 20px; /* Agrega espacio alrededor del contenido si lo deseas */
+  height: 100vh;
+
+  @media (min-width: 600px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 20px;
+    }
 `;
 
 export const Background = styled.div`
@@ -50,4 +67,3 @@ export const Background = styled.div`
   background-repeat: no-repeat;
   background-position: center;
 `;
-

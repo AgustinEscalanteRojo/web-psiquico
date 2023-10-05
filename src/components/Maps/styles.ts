@@ -1,14 +1,19 @@
 import styled from 'styled-components';
 
 export const MapContainer = styled.div`
-  max-width: 600px;
+  max-width: 100%;
   margin: 0 auto;
 `;
 
 export const MapResponsive = styled.div`
-  overflow: hidden;
-  padding-bottom: 70%;
   position: relative;
+  overflow: hidden;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive iframe */
+  height: 0;
+
+  @media (max-width: 768px) {
+    padding-bottom: 75%; /* Adjust the aspect ratio for smaller screens */
+  }
 `;
 
 export const MapIframe = styled.iframe`
