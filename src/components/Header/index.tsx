@@ -90,6 +90,11 @@ function Header() {
               }}
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
+              PaperProps={{
+                sx: {
+                  background: '#A9E3ED',
+                },
+              }}
               sx={{
                 display: { xs: 'block', md: 'none' },
               }}
@@ -133,7 +138,7 @@ function Header() {
               </Button>
             ))}
           </Box>
-          <Box sx={{ flexGrow: 0 }}>
+          {/* <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
@@ -161,7 +166,7 @@ function Header() {
                 </MenuItem>
               ))}
             </Menu>
-          </Box>
+          </Box> */}
         </Toolbar>
       </Container>
     </AppBar>
