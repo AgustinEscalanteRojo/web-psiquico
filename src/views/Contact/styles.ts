@@ -24,16 +24,16 @@ export const StyledContainer = styled(MUIContainer)`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 30vh;
+    width: fit-content;
     background-color: #fff;
     padding: 5px;
     color: #333;
     border: 3px solid #ccc;
     border-radius: 8px;
-    max-width: 300px; /* Ajusta el valor según tus necesidades */
     margin: 0 auto; /* Centra el contenedor en la página */
   }
 `;
+
 
 export const Title = styled.p`
   color: #1B94AB;
