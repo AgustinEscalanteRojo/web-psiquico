@@ -7,7 +7,7 @@ export const StyledContainer = styled(MUIContainer)`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 50vh;
+    min-height: 100vh;
     background: linear-gradient(to right, #d2f4f9, transparent);
     padding: 30px;
     color: #333;
@@ -63,7 +63,15 @@ export const Background = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 `;
+
+// export const Background = styled.div`
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center;
+// `;

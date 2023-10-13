@@ -106,7 +106,7 @@ const Who: FC = () => {
           <Grid item xs={12} md={6}>
             <BioContainer>
               <Title>Felix Valderrama </Title>
-              <img src="/" alt="Felix" />
+              <img src="/Felix.jpg" alt="Felix" />
 
               <div>
                 <Typography variant="subtitle1">
