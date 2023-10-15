@@ -8,11 +8,10 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import Hidden from '@mui/material/Hidden';
 
 const pages = [
   { label: '¿Quienes sómos?', path: '/Who' },
@@ -24,47 +23,59 @@ const pages = [
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Header() {
-  const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
-  const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
+  const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
+    null,
+  );
 
   const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorElNav(event.currentTarget);
-  };
-
-  const handleOpenUserMenu = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorElUser(event.currentTarget);
   };
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
-
   return (
     <AppBar position="static" sx={{ backgroundColor: '#1B94AB' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
-          <Typography
-            variant="h6"
-            noWrap
-            component={Link}
-            to="/"
-            sx={{
-              mr: 2,
-              display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: '#890679',
-              textDecoration: 'none',
-            }}
-          >
-            PSIQUI&CO
-          </Typography>
+        <Hidden mdUp>
+    <Link to="/">
+      <img
+        src="Logo.jpg" 
+        alt="Logo"
+        style={{
+          display: 'flex',
+          marginRight: 1,
+          fontFamily: 'monospace',
+          fontWeight: 200,
+          letterSpacing: '.1rem',
+          color: '#890679',
+          textDecoration: 'none',
+          maxWidth: '100px', // ajusta el tamaño según tus necesidades
+        }}
+      />
+    </Link>
+  </Hidden>
+  <Hidden smDown>
+    <Link to="/">
+      <img
+        src="Logo.jpg" 
+        alt="Logo"
+        style={{
+          display: 'flex',
+          marginRight: 1,
+          fontFamily: 'monospace',
+          fontWeight: 200,
+          letterSpacing: '.1rem',
+          color: '#890679',
+          textDecoration: 'none',
+          maxWidth: '150px', // ajusta el tamaño según tus necesidades
+        }}
+      />
+    </Link>
+  </Hidden>
+
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
@@ -100,31 +111,18 @@ function Header() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page.label} onClick={handleCloseNavMenu} component={Link} to={page.path}>
+                <MenuItem
+                  key={page.label}
+                  onClick={handleCloseNavMenu}
+                  component={Link}
+                  to={page.path}
+                >
                   <Typography textAlign="center">{page.label}</Typography>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-          <Typography
-            variant="h5"
-            noWrap
-            component={Link}
-            to="/"
-            sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: '#890679',
-              textDecoration: 'none',
-            }}
-          >
-            PSIQU&CO
-          </Typography>
+
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button
