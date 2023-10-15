@@ -17,6 +17,7 @@ export const StyledContainer = styled(MUIContainer)`
     margin: 0; /*Centra el contenedor en la página */
     margin-top: 20px;
     margin-bottom: 30px;
+    padding-bottom: 60px;
 
     @media (min-width: 600px) {
       max-width: 600px; /* Restaura el ancho máximo en dispositivos más grandes si es necesario */
@@ -65,13 +66,3 @@ export const Background = styled.div`
   height: 100%;
 `;
 
-// export const Background = styled.div`
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   background-position: center;
-// `;

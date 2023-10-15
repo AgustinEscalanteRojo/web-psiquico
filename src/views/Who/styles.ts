@@ -6,6 +6,7 @@ export const Container = styled.div`
   align-items: center; /* Centrar horizontalmente en el contenedor principal */
   min-height: 100vh; /* Asegura que Container tenga al menos el 100% de la altura de la ventana gráfica */
   margin: 0 30px; /* Agrega margen de 20px a ambos lados */
+  padding-bottom: 60px;
 `;
 
 export const BioContainer = styled.div`
