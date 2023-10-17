@@ -7,17 +7,15 @@ export const StyledContainer = styled(MUIContainer)`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 10vh;
     background: linear-gradient(to right, #d2f4f9, transparent);
     padding: 30px;
     color: #333;
     border: 1px solid #ccc;
-    border-radius: 8px;
-    max-width: 100%; /* Ajusta el valor según tus necesidades */
+    border-radius: 10px;
+    max-width: 80%; /* Ajusta el valor según tus necesidades */
     margin: 0; /*Centra el contenedor en la página */
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 200px;
 
     @media (min-width: 600px) {
       max-width: 600px; /* Restaura el ancho máximo en dispositivos más grandes si es necesario */
@@ -29,12 +27,16 @@ export const StyledContainer = styled(MUIContainer)`
 export const Text = styled.p`
   text-align: center;
   margin-top: 3px;
+  font-family: 'Pacifico', cursive;
+
 `;
 
 export const SubText = styled.p`
   text-align: center;
   margin-top: 5px;
   font-size: 1em;
+  font-family: 'Pacifico', cursive;
+
 `;
 
 export const MapsContainer = styled.div`
@@ -45,7 +47,7 @@ export const MapsContainer = styled.div`
   width: 100%; /* Asegura que el contenedor Maps ocupe todo el ancho disponible */
   max-width: 1200px; /* Establece un ancho máximo para el contenedor si es necesario */
   padding: 0 20px; /* Agrega espacio alrededor del contenido si lo deseas */
-  height: 100vh;
+  height: 20vh;
 
   @media (min-width: 600px) {
     display: flex;
