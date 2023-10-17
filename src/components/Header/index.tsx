@@ -12,6 +12,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import Hidden from '@mui/material/Hidden';
+import { StyledTypography } from './styles';
 
 const pages = [
   { label: '¿Quienes sómos?', path: '/Who' },
@@ -39,42 +40,42 @@ function Header() {
     <AppBar position="static" sx={{ backgroundColor: '#1B94AB' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-        <Hidden mdUp>
-    <Link to="/">
-      <img
-        src="Logo.jpg" 
-        alt="Logo"
-        style={{
-          display: 'flex',
-          marginRight: 1,
-          fontFamily: 'monospace',
-          fontWeight: 200,
-          letterSpacing: '.1rem',
-          color: '#890679',
-          textDecoration: 'none',
-          maxWidth: '100px', // ajusta el tamaño según tus necesidades
-        }}
-      />
-    </Link>
-  </Hidden>
-  <Hidden smDown>
-    <Link to="/">
-      <img
-        src="Logo.jpg" 
-        alt="Logo"
-        style={{
-          display: 'flex',
-          marginRight: 1,
-          fontFamily: 'monospace',
-          fontWeight: 200,
-          letterSpacing: '.1rem',
-          color: '#890679',
-          textDecoration: 'none',
-          maxWidth: '150px', // ajusta el tamaño según tus necesidades
-        }}
-      />
-    </Link>
-  </Hidden>
+          <Hidden mdUp>
+            <Link to="/">
+              <img
+                src="Logo.jpg"
+                alt="Logo"
+                style={{
+                  display: 'flex',
+                  marginRight: 1,
+                  fontFamily: "'Pacifico', cursive",
+                  fontWeight: 200,
+                  letterSpacing: '.1rem',
+                  color: '#890679',
+                  textDecoration: 'none',
+                  maxWidth: '100px', // ajusta el tamaño según tus necesidades
+                }}
+              />
+            </Link>
+          </Hidden>
+          <Hidden smDown>
+            <Link to="/">
+              <img
+                src="Logo.jpg"
+                alt="Logo"
+                style={{
+                  display: 'flex',
+                  marginRight: 1,
+                  fontFamily: "'Pacifico', cursive",
+                  fontWeight: 200,
+                  letterSpacing: '.1rem',
+                  color: '#890679',
+                  textDecoration: 'none',
+                  maxWidth: '150px', // ajusta el tamaño según tus necesidades
+                }}
+              />
+            </Link>
+          </Hidden>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
@@ -117,15 +118,18 @@ function Header() {
                   component={Link}
                   to={page.path}
                 >
-      <Typography textAlign="center" sx={{ fontFamily: "'Pacifico', cursive" }}>
-        {page.label}
-      </Typography>
+                  <StyledTypography
+                    textAlign="center"
+                    sx={{ fontFamily: "'Pacifico', cursive" }}
+                  >
+                    {page.label}
+                  </StyledTypography>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 1, display: 'flex', flexDirection: { xs: 'column', md: 'row' } }}>
             {pages.map((page) => (
               <Button
                 key={page.label}

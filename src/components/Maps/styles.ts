@@ -5,14 +5,23 @@ export const MapContainer = styled.div`
   margin: 0 auto;
 `;
 
+export const MapTitle = styled.h2`
+  margin-bottom: 0;
+`;
+
+export const MapText = styled.p`
+  margin: 0; /* Ajusta el margen de los párrafos */
+`;
+
 export const MapResponsive = styled.div`
   position: relative;
   overflow: hidden;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive iframe */
+  padding-bottom: 56.25%;
   height: 0;
+  margin-top: 10px;
 
   @media (max-width: 768px) {
-    padding-bottom: 75%; /* Adjust the aspect ratio for smaller screens */
+    padding-bottom: 75%;
   }
 `;
 

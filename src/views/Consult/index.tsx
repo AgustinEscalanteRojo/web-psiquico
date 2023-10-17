@@ -12,7 +12,7 @@ const Consult: FC = () => {
         <Title>Consulta de Psicología</Title>
         <Text>
           Centro psicológico autorizado por la Consejería de Salud de la Junta
-          de Andalucía con el nº de Registro ********* <br />
+          de Andalucía con el nº de Registro 60556 <br />
           Avda. San Francisco Javier 9, planta 2, módulo 24, Sevilla
           <br />
           (Solicitar cita previa)
