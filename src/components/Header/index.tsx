@@ -117,7 +117,9 @@ function Header() {
                   component={Link}
                   to={page.path}
                 >
-                  <Typography textAlign="center">{page.label}</Typography>
+      <Typography textAlign="center" sx={{ fontFamily: "'Pacifico', cursive" }}>
+        {page.label}
+      </Typography>
                 </MenuItem>
               ))}
             </Menu>

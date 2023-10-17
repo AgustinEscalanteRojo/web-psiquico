@@ -7,8 +7,9 @@ import {
   BioContainer,
   Title,
   Subtitle1,
+  StyledTypography,
 } from './styles';
-import { Grid, Typography } from '@mui/material';
+import { Grid } from '@mui/material';
 
 const Who: FC = () => {
   return (
@@ -23,17 +24,17 @@ const Who: FC = () => {
               <img src="/Mariapsiquico.jpg" alt="María" />
 
               <div>
-                <Typography variant="subtitle1">
+                <StyledTypography variant="subtitle1">
                   - Licenciada en Psicología
-                </Typography>
-                <Typography variant="subtitle1">
+                </StyledTypography>
+                <StyledTypography variant="subtitle1">
                   - Máster en Terapia Cognitivo Conductual
-                </Typography>
+                </StyledTypography>
               </div>
 
               <div>
                 <Subtitle1>Sobre mí</Subtitle1>
-                <Typography variant="body1">
+                <StyledTypography  variant="body1">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -42,12 +43,12 @@ const Who: FC = () => {
                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.
-                </Typography>
+                </StyledTypography >
               </div>
 
               <div>
                 <Subtitle1>Orientación Teórica</Subtitle1>
-                <Typography variant="body1">
+                <StyledTypography variant="body1">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -56,12 +57,12 @@ const Who: FC = () => {
                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.
-                </Typography>
+                </StyledTypography>
               </div>
 
               <div>
                 <Subtitle1>Formación Complementaria</Subtitle1>
-                <Typography variant="body1">
+                <StyledTypography variant="body1">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -70,12 +71,12 @@ const Who: FC = () => {
                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.
-                </Typography>
+                </StyledTypography>
               </div>
 
               <div>
                 <Subtitle1>Experiencia Profesional</Subtitle1>
-                <Typography variant="body1">
+                <StyledTypography variant="body1">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -84,12 +85,12 @@ const Who: FC = () => {
                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.
-                </Typography>
+                </StyledTypography>
               </div>
 
               <div>
                 <Subtitle1>Otros datos de Interés</Subtitle1>
-                <Typography variant="body1">
+                <StyledTypography variant="body1">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -98,7 +99,7 @@ const Who: FC = () => {
                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.
-                </Typography>
+                </StyledTypography>
               </div>
             </BioContainer>
           </Grid>
@@ -109,18 +110,18 @@ const Who: FC = () => {
               <img src="/Felix.jpg" alt="Felix" />
 
               <div>
-                <Typography variant="subtitle1">
+                <StyledTypography variant="subtitle1">
                   - Licenciada en Psicología
-                </Typography>
-                <Typography variant="subtitle1">
+                </StyledTypography>
+                <StyledTypography variant="subtitle1">
                   - Máster en Terapia Cognitivo Conductual
-                </Typography>
+                </StyledTypography>
               </div>
 
               <div>
                 <Subtitle1>Sobre mí</Subtitle1>
 
-                <Typography variant="body1">
+                <StyledTypography variant="body1">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -129,13 +130,13 @@ const Who: FC = () => {
                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.
-                </Typography>
+                </StyledTypography>
               </div>
 
               <div>
                 <Subtitle1>Orientación Teórica</Subtitle1>
 
-                <Typography variant="body1">
+                <StyledTypography variant="body1">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -144,13 +145,13 @@ const Who: FC = () => {
                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.
-                </Typography>
+                </StyledTypography>
               </div>
 
               <div>
                 <Subtitle1>Formación Complementaria</Subtitle1>
 
-                <Typography variant="body1">
+                <StyledTypography variant="body1">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -159,13 +160,13 @@ const Who: FC = () => {
                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.
-                </Typography>
+                </StyledTypography>
               </div>
 
               <div>
                 <Subtitle1>Experiencia Profesional</Subtitle1>
 
-                <Typography variant="body1">
+                <StyledTypography variant="body1">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -174,13 +175,13 @@ const Who: FC = () => {
                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.
-                </Typography>
+                </StyledTypography>
               </div>
 
               <div>
                 <Subtitle1>Otros datos de Interés</Subtitle1>
 
-                <Typography variant="body1">
+                <StyledTypography variant="body1">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -189,7 +190,7 @@ const Who: FC = () => {
                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.
-                </Typography>
+                </StyledTypography>
               </div>
             </BioContainer>
           </Grid>
