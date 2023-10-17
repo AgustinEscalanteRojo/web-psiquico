@@ -7,6 +7,7 @@ export const Container = styled.div`
   align-items: center;
   min-height: 20vh;
   padding-bottom: 60px;
+  padding: 0 20px; /* Añadido padding para dar espacio en los bordes */
 `;
 
 export const ContactInfo = styled.div`
@@ -15,7 +16,7 @@ export const ContactInfo = styled.div`
   margin-bottom: 10px;
   min-height: 2vh;
   svg {
-    margin-right: 5px; /* Aplica el margen a todos los iconos dentro de ContactInfo */
+    margin-right: 5px;
   }
 `;
 
@@ -25,14 +26,21 @@ export const StyledContainer = styled(MUIContainer)`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: fit-content;
     background-color: #fff;
-    padding: 5px;
+    padding: 20px;
     color: #333;
     border: 3px solid #ccc;
     border-radius: 8px;
-    margin: 0 auto; /* Centra el contenedor en la página */
+    border-color: #1b94ab;
+    margin: 20px auto;
     min-height: 20vh;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 10px;
+    margin: 10px auto;
   }
 `;
 
@@ -40,8 +48,9 @@ export const Title = styled.p`
   color: #1b94ab;
   font-weight: bold;
   font-style: italic;
-  font-size: 42px;
+  font-size: 24px;
   text-decoration: underline;
+  margin-bottom: 10px;
 `;
 
 export const Info = styled.div`
@@ -50,7 +59,7 @@ export const Info = styled.div`
   align-items: center;
   font-weight: bold;
   font-style: italic;
-  font-size: 18px;
+  font-size: 16px;
   margin: 10px;
 `;
 
@@ -58,7 +67,7 @@ export const Name = styled.p`
   color: #1b94ab;
   font-weight: bold;
   font-style: italic;
-  font-size: 22px;
+  font-size: 18px;
 `;
 
 export const Background = styled.div`
