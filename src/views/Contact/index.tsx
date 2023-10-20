@@ -60,11 +60,11 @@ const Contact: FC = () => {
         <RiTwitterXFill style={{ color: '#1da1f2' }} />
         <strong>Twitter: </strong>{' '}
         <a
-          href="https://twitter.com/marinpsicologa"
+          href="https://twitter.com/MMarinPsicologa"
           target="_blank"
           rel="noopener noreferrer"
         >
-          @marinpsicologa
+          @MMarinPsicologa
         </a>
       </ContactInfo>
 
