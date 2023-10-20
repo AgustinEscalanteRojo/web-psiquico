@@ -23,22 +23,24 @@ export const BioContainer = styled.div`
 `;
 
 export const Title = styled.p`
-  color: #1B94AB;
-  font-weight: bold; 
+  color: #1b94ab;
+  font-weight: bold;
   font-size: 22px;
   font-family: 'Pacifico', cursive; /* Agrega la fuente aquí */
 `;
 
 export const Subtitle1 = styled.p`
-  color: #1B94AB;
-  font-weight: bold; 
+  color: #1b94ab;
+  font-weight: bold;
   font-size: 14px;
   font-family: 'Pacifico', cursive; /* Agrega la fuente aquí */
+  text-align: justify;
 `;
 
 export const StyledTypography = styled(Typography)`
   && {
     font-family: 'Pacifico', cursive;
+    text-align: justify;
   }
 `;
 

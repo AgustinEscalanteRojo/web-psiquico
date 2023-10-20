@@ -9,13 +9,12 @@ export const StyledContainer = styled(MUIContainer)`
     justify-content: center;
     min-height: 10vh;
     background: linear-gradient(to right, #d2f4f9, transparent);
-    padding: 30px;
+    padding: 30px 30px 100px;
     color: #333;
     border: 1px solid #ccc;
     border-radius: 10px;
-    max-width: 80%; /* Ajusta el valor según tus necesidades */
+    max-width: 100%; /* Ajusta el valor según tus necesidades */
     margin: 0; /*Centra el contenedor en la página */
-    padding-bottom: 200px;
 
     @media (min-width: 600px) {
       max-width: 600px; /* Restaura el ancho máximo en dispositivos más grandes si es necesario */
@@ -25,7 +24,7 @@ export const StyledContainer = styled(MUIContainer)`
 `;
 
 export const Text = styled.p`
-  text-align: center;
+  text-align: justify;
   margin-top: 3px;
   font-family: 'Pacifico', cursive;
 

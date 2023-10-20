@@ -37,7 +37,7 @@ function Header() {
     <AppBar position="static" sx={{ backgroundColor: '#1B94AB' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Hidden mdUp>
+          <Hidden smUp>
             <Link to="/">
               <img
                 src="Logo.jpg"
