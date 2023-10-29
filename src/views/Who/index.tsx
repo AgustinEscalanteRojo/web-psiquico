@@ -10,6 +10,12 @@ import {
   StyledTypography,
 } from './styles';
 import { Grid } from '@mui/material';
+import { ContactInfo, Name } from '../Contact/styles';
+import { FcCallback } from 'react-icons/fc';
+import { BsLinkedin } from 'react-icons/bs';
+import { MdAttachEmail } from 'react-icons/md';
+import { RiTwitterXFill } from 'react-icons/ri';
+import { FaUserDoctor } from 'react-icons/fa6';
 
 const Who: FC = () => {
   return (
@@ -34,7 +40,7 @@ const Who: FC = () => {
 
               <div>
                 <Subtitle1>Sobre mí</Subtitle1>
-                <StyledTypography  variant="body1">
+                <StyledTypography variant="body1">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -43,7 +49,7 @@ const Who: FC = () => {
                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.
-                </StyledTypography >
+                </StyledTypography>
               </div>
 
               <div>
@@ -61,45 +67,57 @@ const Who: FC = () => {
               </div>
 
               <div>
-                <Subtitle1>Formación Complementaria</Subtitle1>
-                <StyledTypography variant="body1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </StyledTypography>
-              </div>
+                <Subtitle1>Me puedes contactar en:</Subtitle1>
+                <StyledContainer>
+                  <ContactInfo>
+                    <MdAttachEmail style={{ color: '#ff5733' }} />
+                    <strong>Email: </strong>{' '}
+                    <a href="mailto:mariamarinpsicologa@gmail.com">
+                      mariamarinpsicologa@gmail.com
+                    </a>
+                  </ContactInfo>
 
-              <div>
-                <Subtitle1>Experiencia Profesional</Subtitle1>
-                <StyledTypography variant="body1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </StyledTypography>
-              </div>
+                  <ContactInfo>
+                    <FcCallback />
+                    <strong>Teléfono: </strong> 650 775 846
+                  </ContactInfo>
 
-              <div>
-                <Subtitle1>Otros datos de Interés</Subtitle1>
-                <StyledTypography variant="body1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </StyledTypography>
+                  <ContactInfo>
+                    <BsLinkedin style={{ color: '#0e76a8' }} />
+                    <strong>Linkedin: </strong>{' '}
+                    <a
+                      href="https://www.linkedin.com/in/maria-marin-dominguez/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Maria Marin Dominguez
+                    </a>
+                  </ContactInfo>
+
+                  <ContactInfo>
+                    <RiTwitterXFill style={{ color: '#1da1f2' }} />
+                    <strong>Twitter: </strong>{' '}
+                    <a
+                      href="https://twitter.com/MMarinPsicologa"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      @MMarinPsicologa
+                    </a>
+                  </ContactInfo>
+
+                  <ContactInfo>
+                    <FaUserDoctor style={{ color: '#1b907e' }} />
+                    <strong>Doctoralia: </strong>{' '}
+                    <a
+                      href="https://www.doctoralia.es/maria-marin-dominguez/psicologo-terapeuta-complementario/sevilla"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Maria Marin Dominguez - Doctoralia
+                    </a>
+                  </ContactInfo>
+                </StyledContainer>
               </div>
             </BioContainer>
           </Grid>
@@ -120,7 +138,6 @@ const Who: FC = () => {
 
               <div>
                 <Subtitle1>Sobre mí</Subtitle1>
-
                 <StyledTypography variant="body1">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -135,7 +152,6 @@ const Who: FC = () => {
 
               <div>
                 <Subtitle1>Orientación Teórica</Subtitle1>
-
                 <StyledTypography variant="body1">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -149,48 +165,29 @@ const Who: FC = () => {
               </div>
 
               <div>
-                <Subtitle1>Formación Complementaria</Subtitle1>
-
-                <StyledTypography variant="body1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </StyledTypography>
-              </div>
-
-              <div>
-                <Subtitle1>Experiencia Profesional</Subtitle1>
-
-                <StyledTypography variant="body1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </StyledTypography>
-              </div>
-
-              <div>
-                <Subtitle1>Otros datos de Interés</Subtitle1>
-
-                <StyledTypography variant="body1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </StyledTypography>
+                <Subtitle1>Me puedes contactar en:</Subtitle1>
+                <StyledContainer>
+                  <ContactInfo>
+                    <MdAttachEmail style={{ color: '#ff5733' }} />
+                    <strong>Email: </strong> felix@psiquico.com
+                  </ContactInfo>
+                  <ContactInfo>
+                    <FcCallback />
+                    <strong>Teléfono: </strong> 777 777 777
+                  </ContactInfo>
+                  <ContactInfo>
+                    <BsLinkedin style={{ color: '#0e76a8' }} />
+                    <strong>Linkedin:</strong> enlace linkedin
+                  </ContactInfo>
+                  <ContactInfo>
+                    <RiTwitterXFill style={{ color: '#1da1f2' }} />
+                    <strong>Twitter:</strong> @felixvalderrama
+                  </ContactInfo>
+                  <ContactInfo>
+                    <FaUserDoctor style={{ color: '#1b907e' }} />
+                    <strong>Doctoralia:</strong> enlace Doctoralia
+                  </ContactInfo>
+                </StyledContainer>
               </div>
             </BioContainer>
           </Grid>

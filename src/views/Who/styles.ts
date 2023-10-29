@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Typography } from '@mui/material';
+import { Container as MUIContainer } from '@mui/material';
 
 export const Container = styled.div`
   display: flex;
@@ -41,6 +42,31 @@ export const StyledTypography = styled(Typography)`
   && {
     font-family: 'Pacifico', cursive;
     text-align: justify;
+  }
+`;
+
+export const StyledContainer = styled(MUIContainer)`
+  && {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: justify;
+    background-color: #fff;
+    padding: 20px;
+    color: #333;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    border-color: #1b94ab;
+    margin: 20px auto;
+    min-height: 20vh;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 10px;
+    margin: 10px auto;
   }
 `;
 

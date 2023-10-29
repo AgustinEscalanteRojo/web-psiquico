@@ -25,7 +25,8 @@ export const StyledContainer = styled(MUIContainer)`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    text-align: justify;
     background-color: #fff;
     padding: 20px;
     color: #333;
