@@ -1,109 +1,95 @@
-import { FC, memo } from 'react';
+import { FC, memo, useState, useRef } from 'react';
 import Header from '../../components/Header';
 import Background from '../../components/Background';
 import Footer from '../../components/Footer';
-import { RiTwitterXFill } from 'react-icons/ri';
-import { BsLinkedin } from 'react-icons/bs';
-import { MdAttachEmail } from 'react-icons/md';
-import { FcCallback } from 'react-icons/fc';
-import { FaUserDoctor } from 'react-icons/fa6';
+import emailjs from '@emailjs/browser';
 
 import {
   Container,
-  ContactInfo,
   Title,
-  Name,
-  Info,
-  StyledContainer,
+  FormContainer,
+  FormInput,
+  FormTextArea,
+  FormButton,
+  MapsContainer,
+  FormLabel,
+  Text,
 } from './styles';
+import Maps from '../../components/Maps';
 
 const Contact: FC = () => {
+  const [name, setName] = useState('');
+  const [phone, setPhone] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  // Función para manejar el envío del formulario
+
+  const handleSubmit = (e: React.FormEvent<HTMLDivElement>) => {
+    e.preventDefault();
+
+    // Crear un formulario HTML
+    const form = e.currentTarget.querySelector('form');
+
+    // Enviar el formulario utilizando emailjs
+    if (form) {
+      emailjs
+        .sendForm(
+          'service_arn3n19',
+          'template_xi12acs',
+          form,
+          'XbHZNCI3zGtdc8BAg',
+        )
+        .then((response) => {
+          console.log('Formulario enviado con éxito:', response);
+        })
+        .catch((error) => {
+          console.error('Error al enviar el formulario:', error);
+        });
+    }
+  };
+
   return (
     <>
       <Header />
       <Container>
         <Title>Contacto</Title>
-        <Info>
+        <Text>
           Si quieres pedir una cita o deseas más información, puedes ponerte en
-          contacto con nosotros en los datos que se indican a continuación
-        </Info>
-
-        <StyledContainer>
-          <Name>María Marín Domínguez</Name>
-
-          <ContactInfo>
-            <MdAttachEmail style={{ color: '#ff5733' }} />
-            <strong>Email: </strong>{' '}
-            <a href="mailto:mariamarinpsicologa@gmail.com">
-              mariamarinpsicologa@gmail.com
-            </a>
-          </ContactInfo>
-
-          <ContactInfo>
-            <FcCallback />
-            <strong>Teléfono: </strong> 650 775 846
-          </ContactInfo>
-
-          <ContactInfo>
-            <BsLinkedin style={{ color: '#0e76a8' }} />
-            <strong>Linkedin: </strong>{' '}
-            <a
-              href="https://www.linkedin.com/in/maria-marin-dominguez/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Maria Marin Dominguez
-            </a>
-          </ContactInfo>
-
-          <ContactInfo>
-            <RiTwitterXFill style={{ color: '#1da1f2' }} />
-            <strong>Twitter: </strong>{' '}
-            <a
-              href="https://twitter.com/MMarinPsicologa"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              @MMarinPsicologa
-            </a>
-          </ContactInfo>
-
-          <ContactInfo>
-            <FaUserDoctor style={{ color: '#1b907e' }} />
-            <strong>Doctoralia: </strong>{' '}
-            <a
-              href="https://www.doctoralia.es/maria-marin-dominguez/psicologo-terapeuta-complementario/sevilla"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Maria Marin Dominguez - Doctoralia
-            </a>
-          </ContactInfo>
-        </StyledContainer>
-
-        <StyledContainer>
-          <Name>Felix Valderrama Díaz</Name>
-          <ContactInfo>
-            <MdAttachEmail style={{ color: '#ff5733' }} />
-            <strong>Email: </strong> felix@psiquico.com
-          </ContactInfo>
-          <ContactInfo>
-            <FcCallback />
-            <strong>Teléfono: </strong> 777 777 777
-          </ContactInfo>
-          <ContactInfo>
-            <BsLinkedin style={{ color: '#0e76a8' }} />
-            <strong>Linkedin:</strong> enlace linkedin
-          </ContactInfo>
-          <ContactInfo>
-            <RiTwitterXFill style={{ color: '#1da1f2' }} />
-            <strong>Twitter:</strong> @felixvalderrama
-          </ContactInfo>
-          <ContactInfo>
-            <FaUserDoctor style={{ color: '#1b907e' }} />
-            <strong>Doctoralia:</strong> enlace Doctoralia
-          </ContactInfo>
-        </StyledContainer>
+          contacto rellenando el siguiente formulario:
+        </Text>
+        <FormContainer onSubmit={handleSubmit}>
+          <FormLabel>Nombre</FormLabel>
+          <FormInput
+            type="text"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            required
+          />
+          <FormLabel>Teléfono</FormLabel>
+          <FormInput
+            type="number"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+          />
+          <FormLabel>Email</FormLabel>
+          <FormInput
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+          <FormLabel>Comentarios</FormLabel>
+          <FormTextArea
+            placeholder="Escribe tu mensaje aquí..."
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+          />
+          <FormButton type="submit">Enviar</FormButton>
+        </FormContainer>
+        <MapsContainer>
+          <Maps />
+        </MapsContainer>
       </Container>
       <Background />
       <Footer />

@@ -9,17 +9,16 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.p`
-  color: #1B94AB;
-  font-weight: bold; 
-  font-style: italic; 
-  font-size: 42px; 
+  color: #1b94ab;
+  font-weight: bold;
+  font-family: 'Courgette', cursive;
+  font-size: 42px;
   text-decoration: underline;
 
   @media screen and (max-width: 768px) {
-    font-size: 32px; /* Tamaño del título para pantallas más pequeñas */
+    font-size: 32px;
   }
 `;
-
 
 export const ImageContainer = styled.div`
   display: flex;
@@ -36,7 +35,6 @@ export const Image = styled.img`
   box-sizing: border-box;
 
   @media screen and (max-width: 768px) {
-    /* Cambios para pantallas más pequeñas */
     width: calc(100% - 20px);
   }
 `;
@@ -52,4 +50,3 @@ export const Background = styled.div`
   width: 100%;
   height: 100%;
 `;
-

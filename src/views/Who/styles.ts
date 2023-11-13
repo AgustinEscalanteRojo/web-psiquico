@@ -27,20 +27,20 @@ export const Title = styled.p`
   color: #1b94ab;
   font-weight: bold;
   font-size: 22px;
-  font-family: 'Pacifico', cursive; /* Agrega la fuente aquí */
+  font-family: 'Courgette', cursive; 
 `;
 
 export const Subtitle1 = styled.p`
   color: #1b94ab;
   font-weight: bold;
   font-size: 14px;
-  font-family: 'Pacifico', cursive; /* Agrega la fuente aquí */
+  font-family: 'Courgette', cursive; 
   text-align: justify;
 `;
 
 export const StyledTypography = styled(Typography)`
   && {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Courgette', cursive;
     text-align: justify;
   }
 `;
@@ -67,6 +67,16 @@ export const StyledContainer = styled(MUIContainer)`
   @media screen and (max-width: 768px) {
     padding: 10px;
     margin: 10px auto;
+  }
+`;
+
+export const ContactInfo = styled.div`
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  min-height: 2vh;
+  svg {
+    margin-right: 5px;
   }
 `;
 

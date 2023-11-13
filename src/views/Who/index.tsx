@@ -8,9 +8,9 @@ import {
   Title,
   Subtitle1,
   StyledTypography,
+  ContactInfo, 
 } from './styles';
 import { Grid } from '@mui/material';
-import { ContactInfo, Name } from '../Contact/styles';
 import { FcCallback } from 'react-icons/fc';
 import { BsLinkedin } from 'react-icons/bs';
 import { MdAttachEmail } from 'react-icons/md';

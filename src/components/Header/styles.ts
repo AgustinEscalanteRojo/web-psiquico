@@ -3,6 +3,6 @@ import { Typography } from '@mui/material';
 
 export const StyledTypography = styled(Typography)`
   && {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Courgette', cursive;
   }
 `;

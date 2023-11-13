@@ -11,5 +11,4 @@ export const BackgroundContainer = styled.div`
 `;
 
 
-// #E5EAEB
 

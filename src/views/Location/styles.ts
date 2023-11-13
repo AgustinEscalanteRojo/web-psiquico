@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centrar horizontalmente en el contenedor principal */
-  min-height: 100vh; /* Asegura que Container tenga al menos el 100% de la altura de la ventana gráfica */
+  align-items: center; 
+  min-height: 100vh; 
 `;
 
 export const MapsContainer = styled.div`
@@ -12,9 +12,9 @@ export const MapsContainer = styled.div`
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  width: 80%; /* Asegura que el contenedor Maps ocupe todo el ancho disponible */
-  max-width: 1200px; /* Establece un ancho máximo para el contenedor si es necesario */
-  padding: 0 20px; /* Agrega espacio alrededor del contenido si lo deseas */
+  width: 80%; 
+  max-width: 1200px; 
+  padding: 0 20px; 
 `;
 
 export const Background = styled.div`

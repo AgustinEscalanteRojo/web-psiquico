@@ -10,7 +10,7 @@ export const MapTitle = styled.h2`
 `;
 
 export const MapText = styled.p`
-  margin: 0; /* Ajusta el margen de los párrafos */
+  margin: 0; 
 `;
 
 export const MapResponsive = styled.div`

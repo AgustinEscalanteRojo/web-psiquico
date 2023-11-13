@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.footer`
   background-color: #1B94AB; 
-  padding: 10px 0; /* Espaciado interno superior e inferior */
+  padding: 10px 0; 
   text-align: center; 
   position: absolute;
   bottom: 0;
@@ -11,7 +11,7 @@ export const Container = styled.footer`
 `;
 
 export const Text = styled.p`
-  font-family: "Open Sans Condensed";
+  font-family: "Courgette";
   font-weight: bold;
   font-size: 16px; 
   color: #890679; 
