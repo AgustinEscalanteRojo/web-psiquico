@@ -1,4 +1,4 @@
-import { FC, memo, useState, useRef } from 'react';
+import React, { FC, memo, useState, useRef } from 'react';
 import Header from '../../components/Header';
 import Background from '../../components/Background';
 import Footer from '../../components/Footer';
@@ -19,34 +19,32 @@ import Maps from '../../components/Maps';
 
 const Contact: FC = () => {
   const [name, setName] = useState('');
-  const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
   const [message, setMessage] = useState('');
+  const form = useRef(null);
 
-  // Función para manejar el envío del formulario
-
-  const handleSubmit = (e: React.FormEvent<HTMLDivElement>) => {
+  const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
 
-    // Crear un formulario HTML
-    const form = e.currentTarget.querySelector('form');
-
-    // Enviar el formulario utilizando emailjs
-    if (form) {
-      emailjs
-        .sendForm(
-          'service_arn3n19',
-          'template_xi12acs',
-          form,
-          'XbHZNCI3zGtdc8BAg',
-        )
-        .then((response) => {
-          console.log('Formulario enviado con éxito:', response);
-        })
-        .catch((error) => {
-          console.error('Error al enviar el formulario:', error);
-        });
+    if (form.current === null) {
+      return;
     }
+    emailjs
+      .sendForm(
+        'service_arn3n19',
+        'template_xi12acs',
+        form.current,
+        'XbHZNCI3zGtdc8BAg',
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        },
+      );
   };
 
   return (
@@ -58,12 +56,21 @@ const Contact: FC = () => {
           Si quieres pedir una cita o deseas más información, puedes ponerte en
           contacto rellenando el siguiente formulario:
         </Text>
-        <FormContainer onSubmit={handleSubmit}>
+        <FormContainer ref={form} onSubmit={sendEmail}>
           <FormLabel>Nombre</FormLabel>
           <FormInput
             type="text"
+            name="user_name"
             value={name}
             onChange={(e) => setName(e.target.value)}
+            required
+          />
+          <FormLabel>Email</FormLabel>
+          <FormInput
+            type="email"
+            name="user_email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             required
           />
           <FormLabel>Teléfono</FormLabel>
@@ -72,21 +79,16 @@ const Contact: FC = () => {
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
           />
-          <FormLabel>Email</FormLabel>
-          <FormInput
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-          <FormLabel>Comentarios</FormLabel>
+          <FormLabel>Mensaje</FormLabel>
           <FormTextArea
+            name="message"
             placeholder="Escribe tu mensaje aquí..."
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           />
-          <FormButton type="submit">Enviar</FormButton>
+          <FormButton type="submit" value="Send">Enviar</FormButton>
         </FormContainer>
+
         <MapsContainer>
           <Maps />
         </MapsContainer>
