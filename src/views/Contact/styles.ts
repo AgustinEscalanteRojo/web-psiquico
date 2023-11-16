@@ -32,7 +32,7 @@ export const FormLabel = styled.label`
   font-family: 'Courgette', cursive;
 `;
 
-export const FormContainer = styled.div`
+export const FormContainer = styled.form`
   width: 100%;
   max-width: 400px;
   margin: 20px auto;
