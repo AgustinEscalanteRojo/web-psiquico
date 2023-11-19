@@ -58,7 +58,7 @@ function Header() {
           <Hidden smDown>
             <Link to="/">
               <img
-                src="Logo.jpg"
+                src="Logopsiquico.png"
                 alt="Logo"
                 style={{
                   display: 'flex',
