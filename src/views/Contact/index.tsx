@@ -23,6 +23,7 @@ const Contact: FC = () => {
   const [phone, setPhone] = useState('');
   const [message, setMessage] = useState('');
   const form = useRef(null);
+  const [isFormSubmitted, setIsFormSubmitted] = useState(false);
 
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
@@ -40,11 +41,20 @@ const Contact: FC = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setIsFormSubmitted(true);
         },
         (error) => {
           console.log(error.text);
         },
       );
+  };
+
+  const resetForm = () => {
+    setName('');
+    setEmail('');
+    setPhone('');
+    setMessage('');
+    setIsFormSubmitted(false);
   };
 
   return (
@@ -56,6 +66,10 @@ const Contact: FC = () => {
           Si quieres pedir una cita o deseas más información, puedes ponerte en
           contacto rellenando el siguiente formulario:
         </Text>
+
+        {isFormSubmitted ? (
+          <div>¡Formulario enviado correctamente!</div>
+        ) : (
         <FormContainer ref={form} onSubmit={sendEmail}>
           <FormLabel>Nombre</FormLabel>
           <FormInput
@@ -87,7 +101,10 @@ const Contact: FC = () => {
             onChange={(e) => setMessage(e.target.value)}
           />
           <FormButton type="submit" value="Send">Enviar</FormButton>
+          <FormButton onClick={resetForm}>Reiniciar formulario</FormButton>
         </FormContainer>
+
+        )}
 
         <MapsContainer>
           <Maps />

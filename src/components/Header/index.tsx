@@ -40,7 +40,7 @@ function Header() {
           <Hidden smUp>
             <Link to="/">
               <img
-                src="Logo.jpg"
+                src="Logopsiquico.png"
                 alt="Logo"
                 style={{
                   display: 'flex',
