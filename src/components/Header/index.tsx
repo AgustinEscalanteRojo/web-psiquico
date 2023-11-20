@@ -15,7 +15,7 @@ import Hidden from '@mui/material/Hidden';
 const pages = [
   { label: '¿Quienes sómos?', path: '/Who' },
   { label: 'La Consulta', path: '/Consult' },
-  { label: 'Ubicación', path: '/Location' },
+  { label: 'Servicios', path: '/Services' },
   { label: 'Contacto', path: '/Contact' },
 ];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];

@@ -4,7 +4,7 @@ import Background from '../../components/Background';
 import Footer from '../../components/Footer';
 import { Container } from './styles';
 
-const Location: FC = () => {
+const Services: FC = () => {
   return (
     <>
       <Background />
@@ -17,4 +17,4 @@ const Location: FC = () => {
   );
 };
 
-export default memo(Location);
+export default memo(Services);
