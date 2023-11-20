@@ -7,16 +7,6 @@ export const Container = styled.div`
   min-height: 100vh; 
 `;
 
-export const MapsContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  width: 80%; 
-  max-width: 1200px; 
-  padding: 0 20px; 
-`;
-
 export const Background = styled.div`
   position: fixed;
   top: 0;

@@ -6,9 +6,9 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
+  min-height: 5vh;
   margin: 0 30px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 `;
 
 export const BioContainer = styled.div`
@@ -50,7 +50,6 @@ export const StyledContainer = styled(MUIContainer)`
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
     text-align: justify;
     background-color: #fff;
     padding: 20px;

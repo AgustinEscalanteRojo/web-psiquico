@@ -7,9 +7,9 @@ export const StyledContainer = styled(MUIContainer)`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 10vh;
+    min-height: 20vh;
     background: linear-gradient(to right, #d2f4f9, transparent);
-    padding: 30px 30px 100px;
+    padding: 20px 20px 20px 20px;
     color: #333;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -31,7 +31,7 @@ export const Text = styled.p`
 `;
 
 export const SubText = styled.p`
-  text-align: center;
+  text-align: justify;
   margin-top: 5px;
   font-size: 1em;
   font-family: 'Courgette', cursive;
@@ -43,10 +43,9 @@ export const MapsContainer = styled.div`
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  width: 100%; 
+  width: 80%; 
   max-width: 1200px; 
-  padding: 0 20px;
-  height: 20vh;
+  padding: 0 20px; 
 
   @media (min-width: 600px) {
     display: flex;

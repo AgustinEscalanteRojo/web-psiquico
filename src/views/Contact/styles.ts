@@ -4,8 +4,8 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 20vh;
-  padding-bottom: 60px;
+  min-height: 100vh;
+  padding-bottom: 50px;
   padding: 0 20px; 
 `;
 
@@ -73,6 +73,7 @@ export const FormButton = styled.button`
   font-size: 16px;
   font-weight: bold;
   border-radius: 5px;
+  margin-right: 30px; 
 
   &:hover {
     background-color: #155e6e;
@@ -109,54 +110,3 @@ export const Background = styled.div`
   height: 100%;
 `;
 
-// export const Info = styled.div`
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   font-weight: bold;
-//   font-style: italic;
-//   font-size: 16px;
-//   margin: 10px;
-// `;
-
-// export const Name = styled.p`
-//   color: #1b94ab;
-//   font-weight: bold;
-//   font-style: italic;
-//   font-size: 18px;
-// `;
-
-// export const ContactInfo = styled.div`
-//   display: flex;
-//   align-items: center;
-//   margin-bottom: 10px;
-//   min-height: 2vh;
-//   svg {
-//     margin-right: 5px;
-//   }
-// `;
-
-// export const StyledContainer = styled(MUIContainer)`
-//   && {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     /* justify-content: center; */
-//     text-align: justify;
-//     background-color: #fff;
-//     padding: 20px;
-//     color: #333;
-//     border: 3px solid #ccc;
-//     border-radius: 8px;
-//     border-color: #1b94ab;
-//     margin: 20px auto;
-//     min-height: 20vh;
-//     width: 100%;
-//     max-width: 600px;
-//   }
-
-//   @media screen and (max-width: 768px) {
-//     padding: 10px;
-//     margin: 10px auto;
-//   }
-// `;

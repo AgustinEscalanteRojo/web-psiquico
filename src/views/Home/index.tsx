@@ -3,7 +3,7 @@ import Header from '../../components/Header';
 import Background from '../../components/Background';
 import Footer from '../../components/Footer';
 import { StyledContainer, Text, SubText } from './styles';
-import { MapsContainer } from '../Location/styles';
+import { MapsContainer } from './styles';
 import Maps from '../../components/Maps';
 
 const Home = () => {
