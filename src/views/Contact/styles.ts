@@ -9,12 +9,13 @@ export const Container = styled.div`
   padding: 0 20px; 
 `;
 
-export const Text =styled.div`
-    font-family: 'Courgette', cursive;
-    font-size: 16px;
-    text-align: justify;
-    margin-bottom: 15px;
-    `;
+export const Text = styled.div`
+  font-family: 'Courgette', cursive;
+  font-size: 16px;
+  text-align: justify;
+  margin: 15px 0;
+  max-width: 400px;
+`;
 
 
 export const Title = styled.p`
@@ -36,9 +37,11 @@ export const FormContainer = styled.form`
   width: 100%;
   max-width: 400px;
   margin: 20px auto;
+  padding: 0 10px; 
 
   @media (max-width: 480px) {
     padding: 0 10px; 
+    max-width: 200px;
   }
 `;
 

@@ -7,9 +7,9 @@ export const StyledContainer = styled(MUIContainer)`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 20vh;
+    min-height: 100vh;
     background: linear-gradient(to right, #d2f4f9, transparent);
-    padding: 20px 20px 20px 20px;
+    padding: 5px 20px 20px 20px;
     color: #333;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -59,9 +59,9 @@ export const MapsContainer = styled.div`
 `;
 
 export const Image = styled.img`
-  width: calc(50% - 20px);
-  max-width: 300px;
-  margin: 10px;
+  width: calc(50% - 10px);
+  max-width: 400px;
+  margin: 5px;
   box-sizing: border-box;
 
   @media screen and (max-width: 768px) {

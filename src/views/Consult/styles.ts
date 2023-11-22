@@ -41,6 +41,7 @@ export const Image = styled.img`
 
 export const Text = styled.p`
   text-align: center;
+  max-width: 620px;
 `;
 
 export const Background = styled.div`
