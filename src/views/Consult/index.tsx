@@ -2,7 +2,9 @@ import { FC, memo } from 'react';
 import Header from '../../components/Header';
 import Background from '../../components/Background';
 import Footer from '../../components/Footer';
+import { Link } from 'react-router-dom';
 import { Container, Title, Text, ImageContainer, Image } from './styles';
+
 
 const Consult: FC = () => {
   return (
@@ -15,7 +17,7 @@ const Consult: FC = () => {
           de Andalucía con el nº de Registro 60556 <br />
           Avda. San Francisco Javier 9, planta 2, módulo 24, Sevilla
           <br />
-          (Solicitar cita previa)
+          <Link to="/Contact">(Solicitar cita previa)</Link>
         </Text>
         <ImageContainer>
           <Image src="/Entrada.jpg" alt="Entrada" />

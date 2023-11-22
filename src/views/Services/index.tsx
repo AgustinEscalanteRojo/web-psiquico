@@ -13,7 +13,11 @@ const Services: FC = () => {
       description: 'Terapia individual',
     },
     { src: '/familia.jpeg', alt: 'familia', description: 'Terapia de familia' },
-    { src: '/adicciones.jpeg', alt: 'adicciones', description: 'Terapia de adicciones' },
+    {
+      src: '/adicciones.jpeg',
+      alt: 'adicciones',
+      description: 'Terapia de adicciones',
+    },
     { src: '/genero.jpeg', alt: 'género', description: 'Violencia de género' },
     {
       src: '/parental.png',
@@ -31,7 +35,7 @@ const Services: FC = () => {
     <>
       <Header />
       <Container>
-        <Title>Consulta de Psicología</Title>
+        <Title>Servicios</Title>
         <Text>
           A continuación le mostramos los servicios que disponemos para nuestros
           pacientes:
