@@ -58,6 +58,17 @@ export const MapsContainer = styled.div`
     }
 `;
 
+export const Image = styled.img`
+  width: calc(50% - 20px);
+  max-width: 300px;
+  margin: 10px;
+  box-sizing: border-box;
+
+  @media screen and (max-width: 768px) {
+    width: calc(100% - 20px);
+  }
+`;
+
 export const Background = styled.div`
   position: fixed;
   top: 0;

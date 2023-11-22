@@ -2,8 +2,7 @@ import { memo } from 'react';
 import Header from '../../components/Header';
 import Background from '../../components/Background';
 import Footer from '../../components/Footer';
-import { StyledContainer, Text, SubText } from './styles';
-import { MapsContainer } from './styles';
+import { StyledContainer, Text, SubText, MapsContainer, Image } from './styles';
 import Maps from '../../components/Maps';
 
 const Home = () => {
@@ -11,6 +10,7 @@ const Home = () => {
     <>
       <Header />
       <StyledContainer>
+      <Image src="/Logo.jpg" alt="Logo" />
         <Text>
           ¡Bienvenido a Psiquico, tu oasis de bienestar personal! Somos María
           Marín y Félix Valderrama, dos psicólogos apasionados comprometidos con
