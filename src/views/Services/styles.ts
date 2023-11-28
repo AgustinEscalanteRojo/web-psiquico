@@ -39,10 +39,29 @@ export const Image = styled.img`
   }
 `;
 
+export const TextImage = styled.p`
+  text-align: justify;
+  color: #555;
+  font-size: 18px;
+  max-width: 300px;
+
+  @media screen and (max-width: 768px) {
+    width: calc(100% - 20px);
+    font-size: 14px;
+    margin-left: 20px;
+  }
+`;
+
 export const Text = styled.p`
   text-align: justify;
   color: #555;
   font-size: 18px;
+  max-width: 700px;
+
+  @media screen and (max-width: 768px) {
+    width: calc(100% - 20px);
+    font-size: 14px;
+  }
 `;
 
 export const Background = styled.div`

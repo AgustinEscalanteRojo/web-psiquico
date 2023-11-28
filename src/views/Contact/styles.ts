@@ -6,7 +6,6 @@ export const Container = styled.div`
   align-items: center;
   min-height: 100vh;
   padding-bottom: 50px;
-  padding: 0 20px; 
 `;
 
 export const Text = styled.div`

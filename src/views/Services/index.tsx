@@ -2,30 +2,30 @@ import { FC, memo } from 'react';
 import Header from '../../components/Header';
 import Background from '../../components/Background';
 import Footer from '../../components/Footer';
-import { Container, Title, Text, ImageContainer, Image } from './styles';
+import { Container, Title, Text, ImageContainer, Image, TextImage } from './styles';
 
 const Services: FC = () => {
   const images = [
-    { src: '/pareja.jpeg', alt: 'pareja', description: 'Terapia de pareja' },
+    { src: '/pareja.png', alt: 'pareja', description: 'Terapia de pareja' },
     {
-      src: '/individual.jpeg',
+      src: '/individual.png',
       alt: 'individual',
       description: 'Terapia individual',
     },
-    { src: '/familia.jpeg', alt: 'familia', description: 'Terapia de familia' },
+    { src: '/familia.png', alt: 'familia', description: 'Terapia de familia' },
     {
-      src: '/adicciones.jpeg',
+      src: '/adicciones.png',
       alt: 'adicciones',
       description: 'Terapia de adicciones',
     },
-    { src: '/genero.jpeg', alt: 'género', description: 'Violencia de género' },
+    { src: '/genero.png', alt: 'género', description: 'Violencia de género' },
     {
       src: '/parental.png',
       alt: 'parental',
       description: 'Violencia filio parental',
     },
     {
-      src: '/juvenil.jpeg',
+      src: '/juvenil.png',
       alt: 'juvenil',
       description: 'Violencia infanto juvenil',
     },
@@ -38,13 +38,14 @@ const Services: FC = () => {
         <Title>Servicios</Title>
         <Text>
           A continuación le mostramos los servicios que disponemos para nuestros
-          pacientes:
+          pacientes, en los que nos enfocamos en cada especialidad, según las
+          circunstancias:
         </Text>
         <ImageContainer>
           {images.map((image, index) => (
             <div key={index}>
               <Image src={image.src} alt={image.alt} />
-              <Text>{image.description}</Text>
+              <TextImage>{image.description}</TextImage>
             </div>
           ))}
         </ImageContainer>

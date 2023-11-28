@@ -32,7 +32,8 @@ const Who: FC = () => {
 
               <div>
                 <StyledTypography variant="subtitle1">
-                  - Licenciada en Psicología
+                - Psicóloga General sanitario. Nº colegiado Psicólogo: AN
+                  *****
                 </StyledTypography>
                 <StyledTypography variant="subtitle1">
                   - Máster en Terapia Cognitivo Conductual
@@ -42,28 +43,42 @@ const Who: FC = () => {
               <div>
                 <Subtitle1>Sobre mí</Subtitle1>
                 <StyledTypography variant="body1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  "Como psicóloga clínica, me dedico apasionadamente a guiar a
+                  las personas en su viaje hacia el bienestar emocional y
+                  mental. Con un enfoque cálido y compasivo, creo un espacio
+                  seguro donde mis clientes pueden explorar sus pensamientos,
+                  emociones y comportamientos. Mi objetivo es brindar apoyo
+                  experto mientras colaboramos en el descubrimiento de
+                  fortalezas personales y estrategias efectivas para superar
+                  desafíos. Con una formación sólida y una amplia experiencia en
+                  psicología clínica, utilizo enfoques basados en la evidencia y
+                  técnicas personalizadas para abordar una variedad de
+                  preocupaciones, desde el manejo del estrés hasta la gestión de
+                  trastornos emocionales. Mi enfoque integrador reconoce la
+                  singularidad de cada individuo, adaptando las intervenciones
+                  para satisfacer sus necesidades específicas. Creo firmemente
+                  en la importancia de la empatía y la conexión genuina en el
+                  proceso terapéutico. Colaborar con mis clientes para lograr un
+                  mayor autoconocimiento y empoderamiento es la piedra angular
+                  de mi práctica. Si estás listo para embarcarte en un viaje de
+                  autoexploración y crecimiento personal, estoy aquí para
+                  apoyarte en cada paso del camino."
                 </StyledTypography>
               </div>
 
               <div>
                 <Subtitle1>Orientación Teórica</Subtitle1>
                 <StyledTypography variant="body1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Como psicóloga, mi objetivo es brindar apoyo experto para
+                  guiar a las personas en su proceso terapéutico. Dentro de un
+                  espacio seguro, los pacientes pueden explorar sus
+                  pensamientos, emociones y comportamientos. Con amplia
+                  formación y experiencia en psicología, utilizo enfoques
+                  basados en la evidencia científica y técnicas personalizadas
+                  para abordar la demanda de cada paciente. Mi enfoque
+                  integrador tiene en consideración la singularidad individual,
+                  adaptando las intervenciones para satisfacer sus
+                  necesidades específicas.
                 </StyledTypography>
               </div>
 
