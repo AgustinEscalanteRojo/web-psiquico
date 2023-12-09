@@ -101,7 +101,7 @@ const Contact: FC = () => {
             onChange={(e) => setMessage(e.target.value)}
           />
           <FormButton type="submit" value="Send">Enviar</FormButton>
-          <FormButton onClick={resetForm}>Reiniciar formulario</FormButton>
+          {/* <FormButton onClick={resetForm}>Reiniciar formulario</FormButton> */}
         </FormContainer>
 
         )}

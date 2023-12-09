@@ -14,6 +14,6 @@ export const Text = styled.p`
   font-family: "Courgette";
   font-weight: bold;
   font-size: 16px; 
-  color: #890679; 
+  color: #fff; 
   margin: 0; 
 `;

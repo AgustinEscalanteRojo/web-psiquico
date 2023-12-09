@@ -32,7 +32,7 @@ const Who: FC = () => {
 
               <div>
                 <StyledTypography variant="subtitle1">
-                - Psicóloga General sanitario. Nº colegiado Psicólogo: AN
+                  - Psicóloga General sanitario. Nº colegiado Psicólogo: AN
                   *****
                 </StyledTypography>
                 <StyledTypography variant="subtitle1">
@@ -77,8 +77,8 @@ const Who: FC = () => {
                   basados en la evidencia científica y técnicas personalizadas
                   para abordar la demanda de cada paciente. Mi enfoque
                   integrador tiene en consideración la singularidad individual,
-                  adaptando las intervenciones para satisfacer sus
-                  necesidades específicas.
+                  adaptando las intervenciones para satisfacer sus necesidades
+                  específicas.
                 </StyledTypography>
               </div>
 
@@ -251,7 +251,13 @@ const Who: FC = () => {
 
                   <ContactInfo>
                     <FaFacebookSquare style={{ color: '#1da1f2' }} />
-                    <strong>Facebook:</strong> facebook enlace
+                    <a
+                      href="https://www.facebook.com/felix.valderramadiaz/?locale=es_LA"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <strong>Facebook</strong>{' '}
+                    </a>
                   </ContactInfo>
 
                   <ContactInfo>

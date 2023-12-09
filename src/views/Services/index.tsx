@@ -6,12 +6,18 @@ import { Container, Title, Text, ImageContainer, Image, TextImage } from './styl
 
 const Services: FC = () => {
   const images = [
-    { src: '/pareja.png', alt: 'pareja', description: 'Terapia de pareja' },
+    {
+      src: '/juvenil.png',
+      alt: 'juvenil',
+      description: 'Terapia infanto juvenil',
+    },
     {
       src: '/individual.png',
       alt: 'individual',
-      description: 'Terapia individual',
+      description: 'Terapia de adultos',
     },
+    { src: '/pareja.png', alt: 'pareja', description: 'Terapia de pareja' },
+
     { src: '/familia.png', alt: 'familia', description: 'Terapia de familia' },
     {
       src: '/adicciones.png',
@@ -19,16 +25,12 @@ const Services: FC = () => {
       description: 'Terapia de adicciones',
     },
     { src: '/genero.png', alt: 'género', description: 'Violencia de género' },
-    {
-      src: '/parental.png',
-      alt: 'parental',
-      description: 'Violencia filio parental',
-    },
-    {
-      src: '/juvenil.png',
-      alt: 'juvenil',
-      description: 'Violencia infanto juvenil',
-    },
+    // {
+    //   src: '/parental.png',
+    //   alt: 'parental',
+    //   description: 'Violencia filio parental',
+    // },
+
   ];
 
   return (

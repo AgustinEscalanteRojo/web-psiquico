@@ -50,7 +50,7 @@ export const FormInput = styled.input`
   margin-bottom: 10px;
   border-radius: 5px;
   border-color: #1b94ab;
-  border: 2px solid;
+  border: 1px solid;
 `;
 
 export const FormTextArea = styled.textarea`
@@ -59,7 +59,7 @@ export const FormTextArea = styled.textarea`
   margin-bottom: 10px; 
   border-radius: 5px;
   border-color: #1b94ab;
-  border: 2px solid;
+  border: 1px solid;
 
   @media (max-width: 480px) {
     margin-bottom: 10px; 
@@ -98,8 +98,8 @@ export const MapsContainer = styled.div`
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    width: 100%;
-    max-width: 100%;
+    width: 80%;
+    max-width: 80%;
     padding: 0 20px;
     }
 `;

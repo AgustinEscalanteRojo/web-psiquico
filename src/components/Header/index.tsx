@@ -13,7 +13,7 @@ import MenuItem from '@mui/material/MenuItem';
 import Hidden from '@mui/material/Hidden';
 
 const pages = [
-  { label: '¿Quienes sómos?', path: '/Who' },
+  { label: 'Quienes somos', path: '/Who' },
   { label: 'La Consulta', path: '/Consult' },
   { label: 'Servicios', path: '/Services' },
   { label: 'Contacto', path: '/Contact' },
