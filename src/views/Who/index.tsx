@@ -166,34 +166,29 @@ const Who: FC = () => {
               <div>
                 <Subtitle1>Sobre mí</Subtitle1>
                 <StyledTypography variant="body1">
-                  ¡Bienvenid@ a mi página web! Mi nombre es Félix Valderrama
-                  Díaz, y soy un apasionado psicólogo dedicado a la comprensión
-                  y tratamiento efectivo de diversos problemas y trastornos
-                  psicológicos. Mi viaje académico comenzó con mi graduación en
+                  Soy un psicólogo con pasión por la psicología. Graduado en
                   Psicología por la Universidad Nacional de Educación a
-                  Distancia (UNED) entre los años 2014 y 2018, enfocándome en el
-                  área de Psicología Clínica, Personalidad, Evaluación y
-                  Tratamientos Psicológicos. Después de obtener mi graduación,
-                  continué mi formación con un Máster en Psicología General
-                  Sanitaria (2020-2021), consolidando mis conocimientos y
-                  habilidades para ofrecer una atención integral a aquellos que
-                  buscan apoyo psicológico. Desde 2019, he estado comprometido
-                  en el ámbito de la protección de menores, desempeñando roles
-                  de psicólogo en diversas entidades del Sistema de Protección
-                  de Menores y en Centros de Internamiento de Menores
-                  Infractores. También he contribuido como Psicólogo Voluntario
-                  en programas de Cruz Roja, brindando mi ayuda en diferentes
-                  iniciativas. En 2021, materializamos el sueño de crear el
-                  Centro Sanitario PSIQUI&CO, donde actualmente ejerzo como
-                  psicólogo sanitario. En este espacio, comparto experiencias y
-                  trabajo junto a otros profesionales. Además de ofrecer
-                  consultas individuales, de pareja y familia para menores y
-                  adultos, tengo el honor de codirigir clínicamente el centro
-                  junto a la psicóloga María Marín Domínguez. A lo largo de mi
-                  carrera, he mantenido un compromiso constante con mi
-                  desarrollo profesional, participando activamente en cursos,
-                  talleres, congresos y seminarios especializados en Psicología
-                  Clínica y de la Salud, Dirección de Psicodrama, y obteniendo
+                  Distancia (UNED), enfocándome en el área de Psicología
+                  Clínica, Personalidad, Evaluación y Tratamientos Psicológicos,
+                  además del área de psicología educativa. Continué mi formación
+                  con un Máster en Psicología General Sanitaria (UNIR),
+                  consolidando mis conocimientos y habilidades para ofrecer una
+                  atención integral a aquellos que buscan apoyo psicológico.
+                  Desde 2019, he estado comprometido en el ámbito de la
+                  protección de menores, desempeñando roles de psicólogo en
+                  diversas entidades del Sistema de Protección de Menores y en
+                  Centros de Internamiento de Menores Infractores. También he
+                  contribuido como Psicólogo Voluntario en programas de Cruz
+                  Roja, brindando mi ayuda en diferentes iniciativas. En 2021,
+                  materializamos el sueño de crear el Centro Sanitario
+                  PSIQUI&CO, donde actualmente ejerzo como psicólogo sanitario.
+                  En este espacio, comparto experiencias junto a otras
+                  profesionales, ofrezco consultas individuales, de pareja y
+                  familia para menores y adultos A lo largo de mi carrera, he
+                  mantenido un compromiso constante con mi desarrollo
+                  profesional, participando activamente en cursos, talleres,
+                  congresos y seminarios especializados en Psicología Clínica y
+                  de la Salud, Dirección de Psicodrama, y obteniendo
                   certificaciones como Experto Universitario en violencia filio
                   parental, Experto Universitario en Intervención con menores,
                   Protección y conflicto con la Ley, Experto Universitario en el
@@ -204,21 +199,14 @@ const Who: FC = () => {
                   su constante proceso de evolución. Por esta razón, me esfuerzo
                   por mantenerme al día con los últimos avances en psicología,
                   garantizando así un servicio de calidad basado en el
-                  conocimiento más actualizado. Estoy aquí para acompañarte en
-                  tu viaje hacia el bienestar emocional y el crecimiento
-                  personal. ¡Gracias por visitar mi página!
-                </StyledTypography>
-              </div>
-
-              <div>
-                <Subtitle1>Orientación Teórica</Subtitle1>
-                <StyledTypography variant="body1">
-                  Mi orientación y metodología de trabajo podría definirse como
-                  Psicodrama y Cognitivo Conductual / Contextual. En la práctica
-                  clínica integro estrategias y técnicas terapéuticas
-                  provenientes de distintas orientaciones psicológicas que han
-                  mostrado su eficacia (siempre desde una óptica científica,
-                  avalada por los datos empíricos).
+                  conocimiento más actualizado.Mi orientación y metodología de
+                  trabajo podría definirse como Psicodrama y Cognitivo
+                  Conductual / Contextual. En la práctica clínica integro
+                  estrategias y técnicas terapéuticas provenientes de distintas
+                  orientaciones psicológicas que han mostrado su eficacia
+                  (siempre desde una óptica científica, avalada por los datos
+                  empíricos). Estoy aquí para acompañarte en tu viaje hacia el
+                  bienestar emocional y el crecimiento personal.
                 </StyledTypography>
               </div>
 
