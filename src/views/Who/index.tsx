@@ -43,42 +43,44 @@ const Who: FC = () => {
               <div>
                 <Subtitle1>Sobre mí</Subtitle1>
                 <StyledTypography variant="body1">
-                  "Como psicóloga clínica, me dedico apasionadamente a guiar a
-                  las personas en su viaje hacia el bienestar emocional y
-                  mental. Con un enfoque cálido y compasivo, creo un espacio
-                  seguro donde mis clientes pueden explorar sus pensamientos,
-                  emociones y comportamientos. Mi objetivo es brindar apoyo
-                  experto mientras colaboramos en el descubrimiento de
-                  fortalezas personales y estrategias efectivas para superar
-                  desafíos. Con una formación sólida y una amplia experiencia en
-                  psicología clínica, utilizo enfoques basados en la evidencia y
-                  técnicas personalizadas para abordar una variedad de
-                  preocupaciones, desde el manejo del estrés hasta la gestión de
-                  trastornos emocionales. Mi enfoque integrador reconoce la
-                  singularidad de cada individuo, adaptando las intervenciones
-                  para satisfacer sus necesidades específicas. Creo firmemente
-                  en la importancia de la empatía y la conexión genuina en el
-                  proceso terapéutico. Colaborar con mis clientes para lograr un
-                  mayor autoconocimiento y empoderamiento es la piedra angular
-                  de mi práctica. Si estás listo para embarcarte en un viaje de
-                  autoexploración y crecimiento personal, estoy aquí para
-                  apoyarte en cada paso del camino."
-                </StyledTypography>
-              </div>
-
-              <div>
-                <Subtitle1>Orientación Teórica</Subtitle1>
-                <StyledTypography variant="body1">
-                  Como psicóloga, mi objetivo es brindar apoyo experto para
-                  guiar a las personas en su proceso terapéutico. Dentro de un
-                  espacio seguro, los pacientes pueden explorar sus
-                  pensamientos, emociones y comportamientos. Con amplia
-                  formación y experiencia en psicología, utilizo enfoques
-                  basados en la evidencia científica y técnicas personalizadas
-                  para abordar la demanda de cada paciente. Mi enfoque
-                  integrador tiene en consideración la singularidad individual,
-                  adaptando las intervenciones para satisfacer sus necesidades
-                  específicas.
+                  Soy una psicóloga con amplia formación y experiencia. Tras
+                  graduarme en Psicología por la Universidad Nacional de
+                  Educación a Distancia (UNED) y habilitarme como psicóloga
+                  sanitaria con el Máster en Psicología General Sanitaria por la
+                  UNIR,continúe mi formación enfocada en la intervención y
+                  prevención de adicciones, la violencia de género, el trauma y
+                  personalidad. Para poder ofrecer un excelente tratamiento a
+                  mis pacientes, mantengo mis conocimientos en continua
+                  actualización. Pudiendo así ofrecer la terapia que cuente más
+                  evidencia empírica. Mi formación como psicóloga sanitaria la
+                  he completado especializándome en las áreas que más interés me
+                  suscitan cursando para ello el Experto Universitario en
+                  Intervención en Trauma, la Especidad en psicología legal y
+                  forense, en Intervención en adicciones y como Agente en
+                  Violencia de Género. Además de múltiples cursos relacionados
+                  con esta temática y asistencia a congresos. En mi enfoque
+                  integrador, con una metodología en la que aplico las técnicas
+                  más adecuadas según las necesidades de cada individuo, prima
+                  la terapia Cognitivo-conductual entre otras, y las
+                  intervenciones están adaptadas para satisfacer la demanda
+                  particular de cada caso. En 2015 comenzó mi andadura en el
+                  tratamiento de las adicciones, desde 2018 fui involucrándome
+                  en la atención a víctimas de Violencia de Género teniendo la
+                  oportunidad de participar en programas de la Cruz Roja e
+                  interviniendo en estudios sobre esto en otras asociaciones.
+                  Estos dos ámbitos profesionales que tanto me apasionan, me
+                  llevaron a interesarme por la perspectiva de género en el
+                  tratamiento de las adicciones y hoy en día es una variable a
+                  considerar en el tratamiento que ofrezco en adicciones. En
+                  2021, tras muchos años de ir dando forma a nuestra idea de
+                  centro sanitario de psicología nació PSIQUI&CO. Un centro en
+                  el que ejerzo como psicóloga y puedo hacer realidad mi gran
+                  pasión, en este espacio seguro atiendo de forma individual, de
+                  pareja o familias a todas aquellos adultos que lo necesiten.
+                  Creo firmemente en la importancia de la empatía y la conexión
+                  genuina en el proceso terapéutico. Acompañar a mis pacientes
+                  para lograr un mayor autoconocimiento y empoderamiento es la
+                  piedra angular de mi práctica.
                 </StyledTypography>
               </div>
 
