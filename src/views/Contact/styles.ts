@@ -14,6 +14,11 @@ export const Text = styled.div`
   text-align: justify;
   margin: 15px 0;
   max-width: 400px;
+
+  @media screen and (max-width: 768px) {
+    width: calc(100% - 20px);
+    font-size: 14px;
+  }
 `;
 
 

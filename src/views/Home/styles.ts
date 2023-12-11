@@ -28,6 +28,10 @@ export const Text = styled.p`
   margin-top: 3px;
   font-family: 'Courgette', cursive;
 
+  @media screen and (max-width: 768px) {
+    width: calc(100% - 20px);
+    font-size: 14px;
+  }
 `;
 
 export const SubText = styled.p`
@@ -36,6 +40,10 @@ export const SubText = styled.p`
   font-size: 1em;
   font-family: 'Courgette', cursive;
 
+  @media screen and (max-width: 768px) {
+    width: calc(100% - 20px);
+    font-size: 14px;
+  }
 `;
 
 export const MapsContainer = styled.div`

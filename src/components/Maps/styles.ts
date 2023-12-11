@@ -11,6 +11,11 @@ export const MapTitle = styled.h2`
 
 export const MapText = styled.p`
   margin: 0; 
+
+  @media screen and (max-width: 768px) {
+    width: calc(100% - 20px);
+    font-size: 14px;
+  }
 `;
 
 export const MapResponsive = styled.div`

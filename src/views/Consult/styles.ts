@@ -25,7 +25,11 @@ export const ImageContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
-  width: 50%;
+  width: 100%;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const Image = styled.img`
@@ -35,13 +39,18 @@ export const Image = styled.img`
   box-sizing: border-box;
 
   @media screen and (max-width: 768px) {
-    width: calc(100% - 20px);
+    width: calc(50% - 20px);
   }
 `;
 
 export const Text = styled.p`
   text-align: center;
   max-width: 620px;
+
+  @media screen and (max-width: 768px) {
+    width: calc(100% - 20px);
+    font-size: 14px;
+  }
 `;
 
 export const Background = styled.div`
