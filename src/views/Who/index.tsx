@@ -32,8 +32,7 @@ const Who: FC = () => {
 
               <div>
                 <StyledTypography variant="subtitle1">
-                  - Psicóloga General sanitario. Nº colegiado Psicólogo: AN
-                  *****
+                  - Psicóloga General sanitario. Nº colegiado Psicólogo: AN09932
                 </StyledTypography>
                 <StyledTypography variant="subtitle1">
                   - Máster en Terapia Cognitivo Conductual
