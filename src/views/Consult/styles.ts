@@ -25,7 +25,7 @@ export const ImageContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
-  width: 100%;
+  width: 50%;
 
   @media screen and (max-width: 768px) {
     width: 100%;
