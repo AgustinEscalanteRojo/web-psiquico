@@ -96,12 +96,10 @@ const Contact: FC = () => {
           <FormLabel>Mensaje</FormLabel>
           <FormTextArea
             name="message"
-            placeholder="Escribe tu mensaje aquí..."
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           />
           <FormButton type="submit" value="Send">Enviar</FormButton>
-          {/* <FormButton onClick={resetForm}>Reiniciar formulario</FormButton> */}
         </FormContainer>
 
         )}

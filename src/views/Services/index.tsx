@@ -25,11 +25,6 @@ const Services: FC = () => {
       description: 'Terapia de adicciones',
     },
     { src: '/genero.png', alt: 'género', description: 'Violencia de género' },
-    // {
-    //   src: '/parental.png',
-    //   alt: 'parental',
-    //   description: 'Violencia filio parental',
-    // },
 
   ];
 
