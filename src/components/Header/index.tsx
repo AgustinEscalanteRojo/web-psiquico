@@ -17,6 +17,7 @@ const pages = [
   { label: 'La Consulta', path: '/Consult' },
   { label: 'Servicios', path: '/Services' },
   { label: 'Contacto', path: '/Contact' },
+  { label: 'Cursos', path: 'https://aepsis.com/functions/catalogo.php?ref=37ed580eb6dd15' },
 ];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
@@ -50,7 +51,7 @@ function Header() {
                   letterSpacing: '.1rem',
                   color: '#890679',
                   textDecoration: 'none',
-                  maxWidth: '100px', // ajusta el tamaño según tus necesidades
+                  maxWidth: '100px', 
                 }}
               />
             </Link>
