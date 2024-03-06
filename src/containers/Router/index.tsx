@@ -5,6 +5,7 @@ import Consult from '../../views/Consult';
 import Contact from '../../views/Contact';
 import Who from '../../views/Who';
 import Services from '../../views/Services';
+import Training from '../../views/Training';
 
 const Router: FC = () => {
   return (
@@ -15,6 +16,7 @@ const Router: FC = () => {
         <Route path="/Home" element={<Home />} />
         <Route path="/Services" element={<Services />} />
         <Route path="/Who" element={<Who />} />
+        <Route path="/Training" element={<Training />} />
         <Route path="/*" element={<Navigate replace to="/Home" />} />
       </Routes>
     </BrowserRouter>

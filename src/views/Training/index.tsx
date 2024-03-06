@@ -41,10 +41,12 @@ const Training: FC = () => {
           @RocíoBolloMarín, @EloPuentedura, @BelénPeñalbaGutierrez y Félix
           Valderrama Díaz ¡Esperamos aplicar lo aprendido en la práctica
           profesional y contribuir al bienestar de nuestr@s pacientes!
-          hashtag#Psicología hashtag#IntervenciónSuicida hashtag#Autolesiones
-          hashtag#AprendizajeContinuo hashtag#PsicologíaClínica
+          #Psicología #IntervenciónSuicida #Autolesiones
+          #AprendizajeContinuo #PsicologíaClínica
         </Text>
-        <ImageContainer></ImageContainer>
+        <ImageContainer>
+        <Image src="/Formacion.jpg" alt="Formacion" />
+        </ImageContainer>
       </Container>
       <Background />
       <Footer />

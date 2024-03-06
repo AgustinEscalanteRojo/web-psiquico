@@ -29,8 +29,8 @@ export const ImageContainer = styled.div`
 `;
 
 export const Image = styled.img`
-  width: calc(50% - 20px);
-  max-width: 300px;
+  width: calc(70% - 10px);
+  max-width: 500px;
   margin: 10px;
   box-sizing: border-box;
 
