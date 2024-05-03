@@ -32,7 +32,7 @@ const Who: FC = () => {
 
               <div>
                 <StyledTypography variant="subtitle1">
-                  - Psicóloga General sanitario. Nº colegiado Psicólogo: AN09932
+                  - Psicóloga General sanitario. Nº colegiada Psicóloga: AN09932
                 </StyledTypography>
                 <StyledTypography variant="subtitle1">
                   - Máster en Terapia Cognitivo Conductual
@@ -306,11 +306,11 @@ const Who: FC = () => {
           <Grid item xs={12} md={6}>
             <BioContainer>
               <Title>María Balbás Ocaña</Title>
-              <img src="/Felix.jpg" alt="Felix" />
+              <img src="/MariaBalbas.jpg" alt="MariaBalbas" />
 
               <div>
                 <StyledTypography variant="subtitle1">
-                  - Psicóloga General sanitario. Nº colegiado Psicólogo: AN12528
+                  - Psicóloga General sanitario. Nº colegiada Psicóloga: AN12528
                 </StyledTypography>
                 <StyledTypography variant="subtitle1">
                   - Especialista en Tratamiento Integral de los Trastornos de la
