@@ -310,7 +310,7 @@ const Who: FC = () => {
 
               <div>
                 <StyledTypography variant="subtitle1">
-                - Psicóloga General sanitario. Nº colegiado Psicólogo: AN12528
+                  - Psicóloga General sanitario. Nº colegiado Psicólogo: AN12528
                 </StyledTypography>
                 <StyledTypography variant="subtitle1">
                   - Especialista en Tratamiento Integral de los Trastornos de la
@@ -394,39 +394,6 @@ const Who: FC = () => {
                       rel="noopener noreferrer"
                     >
                       <strong>Linkedin </strong>{' '}
-                    </a>
-                  </ContactInfo>
-
-                  <ContactInfo>
-                    <FaFacebookSquare style={{ color: '#1da1f2' }} />
-                    <a
-                      href="https://www.facebook.com/felix.valderramadiaz/?locale=es_LA"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <strong>Facebook</strong>{' '}
-                    </a>
-                  </ContactInfo>
-
-                  <ContactInfo>
-                    <FaUserDoctor style={{ color: '#1b907e' }} />
-                    <a
-                      href="https://www.doctoralia.es/felix-valderrama-diaz/psicologo-psicologo-infantil-terapeuta-complementario/sevilla"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <strong>Doctoralia </strong>{' '}
-                    </a>
-                  </ContactInfo>
-
-                  <ContactInfo>
-                    <FaUserDoctor style={{ color: '#1d1b90' }} />
-                    <a
-                      href="https://www.doctoralia.es/felix-valderrama-diaz/psicologo-psicologo-infantil-terapeuta-complementario/sevilla"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <strong>TopDoctors </strong>{' '}
                     </a>
                   </ContactInfo>
                 </StyledContainer>
