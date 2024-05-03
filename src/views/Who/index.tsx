@@ -383,13 +383,13 @@ const Who: FC = () => {
 
                   <ContactInfo>
                     <FcCallback />
-                    <strong>Teléfono: </strong> 627 060 203
+                    <strong>Teléfono: </strong> 
                   </ContactInfo>
 
                   <ContactInfo>
                     <BsLinkedin style={{ color: '#0e76a8' }} />
                     <a
-                      href="https://es.linkedin.com/in/felixvalderramadiaz"
+                      href="https://www.linkedin.com/in/mar%C3%ADa-balb%C3%A1s-oca%C3%B1a-587956258/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
