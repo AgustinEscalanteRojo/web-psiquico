@@ -376,8 +376,8 @@ const Who: FC = () => {
                   <ContactInfo>
                     <MdAttachEmail style={{ color: '#ff5733' }} />
                     <strong>Email: </strong>{' '}
-                    <a href="psicologofelixvalderramadiaz@gmail.com">
-                      psicologofelixvalderramadiaz@gmail.com
+                    <a href="mariabogutierrez2000@gmail.com">
+                    mariabogutierrez2000@gmail.com
                     </a>
                   </ContactInfo>
 
