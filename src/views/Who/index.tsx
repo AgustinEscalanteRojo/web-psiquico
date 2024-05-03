@@ -310,7 +310,7 @@ const Who: FC = () => {
 
               <div>
                 <StyledTypography variant="subtitle1">
-                  - Master General Sanitario
+                - Psicóloga General sanitario. Nº colegiado Psicólogo: AN12528
                 </StyledTypography>
                 <StyledTypography variant="subtitle1">
                   - Especialista en Tratamiento Integral de los Trastornos de la
