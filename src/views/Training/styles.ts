@@ -71,3 +71,13 @@ export const Background = styled.div`
   width: 100%;
   height: 100%;
 `;
+
+// export const MariaBioContainer = styled(BioContainer)`
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center; // Esto centrará el contenido horizontalmente
+//   text-align: justify; // Esto alineará el texto justificado
+//   margin: auto; // Esto centrará el contenedor horizontalmente en la pantalla
+//   max-width: 800px; // Establece el ancho máximo del contenedor
+//   padding: 20px; // Añade un espacio interno al contenedor
+// `;

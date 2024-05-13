@@ -32,7 +32,7 @@ const Who: FC = () => {
 
               <div>
                 <StyledTypography variant="subtitle1">
-                  - Psicóloga General sanitario. Nº colegiada Psicóloga: AN09932
+                  - Psicóloga General sanitario. Nº colegiado Psicóloga: AN09932
                 </StyledTypography>
                 <StyledTypography variant="subtitle1">
                   - Máster en Terapia Cognitivo Conductual
@@ -383,7 +383,7 @@ const Who: FC = () => {
 
                   <ContactInfo>
                     <FcCallback />
-                    <strong>Teléfono: </strong> 
+                    <strong>Teléfono:</strong> 686 982 198
                   </ContactInfo>
 
                   <ContactInfo>
