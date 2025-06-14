@@ -12,24 +12,25 @@ const Home = () => {
       <StyledContainer>
         <Image src="/Logo.jpg" alt="Logo" />
         <Text>
-          Bienvenido a Psiqui&co, tu centro de bienestar psicológico! Somos
-          María Marín y Félix Valderrama, dos psicólogos apasionados
-          comprometidos con la salud mental. En nuestro centro de psicología
-          sanitaria, te brindamos un acompañamiento personalizado para abordar
-          tus inquietudes.
+          Bienvenido y bienvenida a Psiqui&co, tu centro de bienestar
+          psicológico. En nuestro centro de psicología sanitaria, te brindamos
+          un acompañamiento profesional y una atención personalizada para
+          abordar tus inquietudes. Estaremos encantados de acompañarte en tu
+          proceso de crecimiento y bienestar emocional.
         </Text>
         <SubText>
-          Fundamos Psiqui&co en 2021, fusionando nuestra experiencia y
-          especialización en psicología general sanitaria. Respaldados por un
-          método que ha dejado a numerosos clientes satisfechos (puedes ver sus
-          reseñas en "Doctoralia"), garantizamos la calidad y el mejor servicio
-          psicológico que mereces
+          Desde 2021, en Psiqui&co hemos acompañado a muchas personas en su
+          proceso de bienestar, trabajando desde enfoques psicoterapéuticos
+          basados en la evidencia científica y con un trato cercano y humano.
+          Nuestro compromiso es ofrecer una atención respetuosa, personalizada y
+          efectiva. Puedes conocer las experiencias de quienes han confiado en
+          nosotras a través de las reseñas en Doctoralia.
         </SubText>
         <SubText>
-          Te invitamos a explorar nuestra web, donde encontrarás información
-          detallada sobre cómo podemos ayudarte y nuestro enfoque en el proceso
-          terapéutico. ¡Adelante, descubre que puedes encontrar de tu bienestar
-          psicológico junto a nosotros!
+          En nuestra web encontrarás toda la información sobre nuestro enfoque
+          terapéutico, áreas de trabajo y cómo podemos ayudarte. ¡Te invitamos a
+          descubrir que sí es posible sentirte mejor y cuidar de tu salud mental
+          con acompañamiento profesional!
         </SubText>
         <MapsContainer>
           <Maps />
