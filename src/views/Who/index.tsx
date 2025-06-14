@@ -32,10 +32,12 @@ const Who: FC = () => {
 
               <div>
                 <StyledTypography variant="subtitle1">
-                  - Psicóloga General sanitario. Nº colegiado Psicóloga: AN09932
+                  - Psicóloga General sanitario. Nº colegiada Psicóloga: AN09932
                 </StyledTypography>
                 <StyledTypography variant="subtitle1">
-                  - Máster en Terapia Cognitivo Conductual
+                  - Experta en trastornos de personalidad, psicología legal y
+                  forense, intervención en trauma (EMDR), adicciones y violencia
+                  de género.
                 </StyledTypography>
               </div>
 
@@ -79,7 +81,8 @@ const Who: FC = () => {
                   profesionales que tanto me apasionan, me llevaron a
                   interesarme por la perspectiva de género en el tratamiento de
                   las adicciones y hoy en día es una variable a considerar en el
-                  tratamiento que ofrezco en adicciones.
+                  tratamiento que ofrezco en adicciones, así como la
+                  intervención en patología dual.
                   <br />
                   <br />
                   En 2021, tras muchos años de ir dando forma a nuestra idea de
@@ -377,7 +380,7 @@ const Who: FC = () => {
                     <MdAttachEmail style={{ color: '#ff5733' }} />
                     <strong>Email: </strong>{' '}
                     <a href="mariabogutierrez2000@gmail.com">
-                    mariabogutierrez2000@gmail.com
+                      mariabogutierrez2000@gmail.com
                     </a>
                   </ContactInfo>
 
