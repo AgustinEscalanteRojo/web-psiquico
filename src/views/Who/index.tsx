@@ -161,7 +161,7 @@ const Who: FC = () => {
             </BioContainer>
           </Grid>
 
-          <Grid item xs={12} md={6}>
+          {/* <Grid item xs={12} md={6}>
             <BioContainer>
               <Title>Felix Valderrama Díaz</Title>
               <img src="/Felix.jpg" alt="Felix" />
@@ -301,7 +301,7 @@ const Who: FC = () => {
                 </StyledContainer>
               </div>
             </BioContainer>
-          </Grid>
+          </Grid> */}
 
           <Grid item xs={12} md={6}>
             <BioContainer>
