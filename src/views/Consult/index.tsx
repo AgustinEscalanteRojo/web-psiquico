@@ -21,7 +21,7 @@ const Consult: FC = () => {
         </Text>
         <ImageContainer>
           <Image src="/Entrada.jpg" alt="Entrada" />
-          <Image src="/Entrada2.jpg" alt="Entrada2" />
+          <Image src="/Mariapsiquico.jpg" alt="Entrada2" />
           <Image src="/Recepcion.jpg" alt="Recepcion1" />
           <Image src="/Cafe.jpg" alt="Cafe" />
           <Image src="/Sala1-1.jpg" alt="Sala1-1" />
