@@ -33,10 +33,10 @@ const Contact: FC = () => {
     }
     emailjs
       .sendForm(
-        'service_arn3n19',
-        'template_xi12acs',
+        'service_ek7klhj',
+        'template_yos393v',
         form.current,
-        'XbHZNCI3zGtdc8BAg',
+        'zNRozB8NNh5A7gEu4',
       )
       .then(
         (result) => {
