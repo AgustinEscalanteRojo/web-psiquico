@@ -8,7 +8,7 @@ import {
   Text,
   ImageContainer,
   Image,
-  TextImage,
+  // TextImage,
 } from './styles';
 
 const Training: FC = () => {

@@ -39,23 +39,28 @@ const Contact: FC = () => {
         'zNRozB8NNh5A7gEu4',
       )
       .then(
-        (result) => {
-          console.log(result.text);
-          setIsFormSubmitted(true);
-        },
+    (result) => {
+      console.log(result.text);
+      setIsFormSubmitted(true);
+      setName('');
+      setEmail('');
+      setPhone('');
+      setMessage('');
+    },
         (error) => {
           console.log(error.text);
         },
       );
   };
 
-  const resetForm = () => {
-    setName('');
-    setEmail('');
-    setPhone('');
-    setMessage('');
-    setIsFormSubmitted(false);
-  };
+  // const handleSubmit  = () => {
+  //   setName('');
+  //   setEmail('');
+  //   setPhone('');
+  //   setMessage('');
+  //   setIsFormSubmitted(false);
+  //   resetForm();
+  // };
 
   return (
     <>
@@ -115,3 +120,7 @@ const Contact: FC = () => {
 };
 
 export default memo(Contact);
+function resetForm() {
+  throw new Error('Function not implemented.');
+}
+

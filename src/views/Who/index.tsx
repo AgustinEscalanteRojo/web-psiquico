@@ -16,7 +16,7 @@ import { BsLinkedin } from 'react-icons/bs';
 import { MdAttachEmail } from 'react-icons/md';
 import { RiTwitterXFill } from 'react-icons/ri';
 import { FaUserDoctor } from 'react-icons/fa6';
-import { FaFacebookSquare } from 'react-icons/fa';
+// import { FaFacebookSquare } from 'react-icons/fa';
 
 const Who: FC = () => {
   return (
