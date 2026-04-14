@@ -20,7 +20,7 @@ const pages = [
   { label: 'Formación', path: '/Training' },
   { label: 'Cursos', path: 'https://aepsis.com/functions/catalogo.php?ref=37ed580eb6dd15' },
 ];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+// const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(

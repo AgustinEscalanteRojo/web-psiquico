@@ -120,7 +120,7 @@ const Contact: FC = () => {
 };
 
 export default memo(Contact);
-function resetForm() {
-  throw new Error('Function not implemented.');
-}
+// function resetForm() {
+//   throw new Error('Function not implemented.');
+// }
 
