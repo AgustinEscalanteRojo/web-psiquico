@@ -5,7 +5,7 @@ import Consult from '../../views/Consult';
 import Contact from '../../views/Contact';
 import Who from '../../views/Who';
 import Services from '../../views/Services';
-import Training from '../../views/Training';
+/*import Training from '../../views/Training';*/
 
 const Router: FC = () => {
   return (
