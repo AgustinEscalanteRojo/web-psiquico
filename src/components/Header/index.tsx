@@ -17,7 +17,7 @@ const pages = [
   { label: 'La Consulta', path: '/Consult' },
   { label: 'Servicios', path: '/Services' },
   { label: 'Contacto', path: '/Contact' },
-  { label: 'Formación', path: '/Training' },
+  // { label: 'Formación', path: '/Training' },
   { label: 'Cursos', path: 'https://aepsis.com/functions/catalogo.php?ref=37ed580eb6dd15' },
 ];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];

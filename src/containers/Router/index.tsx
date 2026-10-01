@@ -16,7 +16,7 @@ const Router: FC = () => {
         <Route path="/Home" element={<Home />} />
         <Route path="/Services" element={<Services />} />
         <Route path="/Who" element={<Who />} />
-        <Route path="/Training" element={<Training />} />
+        {/* <Route path="/Training" element={<Training />} /> */}
         <Route path="/*" element={<Navigate replace to="/Home" />} />
       </Routes>
     </BrowserRouter>
