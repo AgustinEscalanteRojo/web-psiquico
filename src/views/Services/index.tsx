@@ -6,19 +6,19 @@ import { Container, Title, Text, ImageContainer, Image, TextImage } from './styl
 
 const Services: FC = () => {
   const images = [
-    {
-      src: '/juvenil.png',
-      alt: 'juvenil',
-      description: 'Terapia infanto juvenil',
-    },
+    // {
+    //   src: '/juvenil.png',
+    //   alt: 'juvenil',
+    //   description: 'Terapia infanto juvenil',
+    // },
     {
       src: '/individual.png',
       alt: 'individual',
       description: 'Terapia de adultos',
     },
-    { src: '/pareja.png', alt: 'pareja', description: 'Terapia de pareja' },
+    // { src: '/pareja.png', alt: 'pareja', description: 'Terapia de pareja' },
 
-    { src: '/familia.png', alt: 'familia', description: 'Terapia de familia' },
+    // { src: '/familia.png', alt: 'familia', description: 'Terapia de familia' },
     {
       src: '/adicciones.png',
       alt: 'adicciones',
